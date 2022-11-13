@@ -1,0 +1,57 @@
+days:
+- name: Quinta
+  slots: ['8:30', '9:00', '9:15', '9:30', '9:45', '10:00', '10:30', '10:45']
+  roomless:
+    '8:30': { presenter: Manoel Mendonça, title: 'Abertura do evento (Auditório do IC)' }
+    '10:00': { title: 'Coffee break' }
+  rooms:
+  - name: Sala 12
+    talks:
+      '9:00': { presenter: Albert Einstein, title: 'Teoria da relatividade' }
+      '9:15': { presenter: von Neumann, title: 'Arquitetura de von Neumann' }
+      '9:30': { presenter: Edsger Dijkstra, title: 'Distância em grafos', span: 2 }
+      '9:45': { placeholder: true }
+  - name: Sala 13
+    talks:
+      '9:30': { presenter: Mark Zuckerberg, title: 'Redes sociais' }
+      '9:45': { presenter: Elon Musk, title: 'Foguetes espaciais' }
+- name: Sexta
+  slots: ['9:00', '9:15', '9:30', '9:45', '10:00']
+  roomless:
+    '10:00': { title: 'Encerramento' }
+  rooms:
+  - name: Sala 12
+    talks:
+      '9:00': { presenter: Albert Einstein, title: 'Teoria da relatividade' }
+      '9:15': { presenter: von Neumann, title: 'Arquitetura de von Neumann' }
+  - name: Sala 13
+    talks:
+      '9:00': { presenter: von Neumann, title: 'Arquitetura de von Neumann' }
+      '9:15': { presenter: Albert Einstein, title: 'Teoria da relatividade' }
+
+# talks:
+#   ['8:30', 'Auditório', 'Quinta']: { presenter: Manoel Mendonça, title: 'Abertura do evento' }
+#   ['9:00', 'Sala 12', 'Quinta']: { presenter: Albert Einstein, title: 'Teoria da relatividade' }
+#   ['9:20', 'Sala 12', 'Quinta']: { presenter: von Neumann, title: 'Arquitetura de von Neumann' }
+#   ['9:20', 'Sala 12', 'Quinta']: { presenter: von Neumann, title: 'Arquitetura de von Neumann' }
+
+
+
+#   - { presenter: Manoel Mendonça, title: 'Abertura do evento' }
+#   - { presenter: Fulano de Tal, title: "Programando em Pascal", abstract: "alskdj oqwije oqwiej lacmn o2wn ekjnw eiwne oqine oqiwne oqiweno qwn lxan soidn oiqwne " }
+
+
+# days:
+# - name: QUINTA
+#   abbr: QUI
+#   date: 2022-12-01
+#   rooms:
+#   - name: Sala 12
+#     talks:
+#       - { presenter: Fulano de Tal, title: "Programando em Pascal", abstract: "alskdj oqwije oqwiej lacmn o2wn ekjnw eiwne oqine oqiwne oqiweno qwn lxan soidn oiqwne " }
+#       - name: Vim Impetus Placerat Cotidieque Ad
+#         time_start: '12:00'
+#         time_end: '12:45'
+#       - name: Condimentum Vitae Sapien Pellentesque
+#         time_start: '12:45'
+#         time_end: '13:30'
