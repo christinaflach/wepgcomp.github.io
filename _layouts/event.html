@@ -39,13 +39,13 @@
 
 <body class="body-wrapper">
 
-  {%- include partials/navigation.html -%}
-  {%- comment -%} {%- include partials/title.html -%} {%- endcomment -%}
-  {%- include partials/banner.html -%}
-  {%- include partials/about.html -%}
-  {%- include partials/schedule.html -%}
-  {%- include partials/map.html -%}
-  {%- include partials/footer.html -%}
+  {% include partials/navigation.html -%}
+  {%- comment -%} {% include partials/title.html %} {%- endcomment -%}
+  {% include partials/banner.html %}
+  {% include partials/about.html %}
+  {% include partials/schedule.html -%}
+  {% include partials/map.html %}
+  {% include partials/footer.html %}
 
   <!-- JAVASCRIPTS -->
   <!-- jQuery -->
