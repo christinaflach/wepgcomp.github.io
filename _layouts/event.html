@@ -65,5 +65,19 @@
   <script src="{{ site.baseurl }}/theme/plugins/google-map/gmap.js"></script>
   <!-- Custom Script -->
   <script src="{{ site.baseurl }}/theme/js/script.js"></script>
+
+  <script>
+    // -----------------------------
+    //  Count Down JS
+    // -----------------------------
+    $('.timer').syotimer({
+      year: {{ page.kickoff.year }},
+      month: {{ page.kickoff.month }},
+      day: {{ page.kickoff.day }},
+      hour: {{ page.kickoff.hour }},
+      minute: {{ page.kickoff.minute }},
+      lang: 'por'
+    });
+  </script>
 </body>
 </html>
