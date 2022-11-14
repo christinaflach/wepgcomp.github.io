@@ -1,28 +1,31 @@
 .program-table {
   table-layout: fixed;
-  /* width: min(80%, 800px); */
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-/* @media only screen and (max-width: 720px) {
-  .program-table {
-    width: 90%;
-  }
+.program-table td.all-rooms {
+  text-align: center;
+  font-weight: bold;
 }
-@media only screen and (max-width: 480px) {
-  .program-table {
-    width: 100%;
-  }
-} */
+.program-table th {
+  text-align: center;
+}
 .program-table td, .program-table th {
-  border: 1px solid #333;
-  padding: 5px;
+  background-color: white;
+  padding: 15px;
+  border-bottom: 4px solid white;
+}
+.program-table .not-empty {
+  background-color: #ccebd8;
+  border: 4px solid white;
+}
+.program-header th {
+  background-color: #ff6600;
+  color: white;
 }
 
-.col-time {
-  width: 3em;
-}
-.col-room {
-  
+.program-table .time {
+  text-align: right;
+  color: #666;
 }

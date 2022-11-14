@@ -33,152 +33,28 @@
 						{% for day in site.data.program.days %}
 						{% assign n_rooms = day.rooms | size -%}
 					  <div class="tab-pane fade show {% if forloop.index == 1 %}active{% endif %} schedule-item" id="{{ day.name }}">
-					  	<!-- Headings -->
-{%- comment -%} 					  	
-							<ul class="m-0 p-0">
-					  		<li class="headings">
-					  			<div class="time">Time</div>
-					  			<div class="speaker">Speaker</div>
-					  			<div class="subject">Subject</div>
-					  			<div class="venue">Venue</div>
-					  		</li>
-					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-					  				<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">9.00 AM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-one.jpg" alt="speaker-thumb-one">
-										<span class="name">Samanta Doe</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Introduction to Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium A</div>
-					  			</div>
-					  		</li>
-					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">10.00 AM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-two.jpg" alt="speaker-thumb-two">
-										<span class="name">Zerad Pawel</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Principle of Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium B</div>
-					  			</div>
-					  		</li>
-					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">12.00 AM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-three.jpg" alt="speaker-thumb-three">
-										<span class="name">Henry Mong</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Wp Requirements</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium C</div>
-					  			</div>
-					  		</li>
-					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">2.00 PM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-four.jpg" alt="speaker-thumb-four">
-										<span class="name">Baily Leo</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Introduction to Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium D</div>
-					  			</div>
-					  		</li>
-					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">3.00 PM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-five.jpg" alt="speaker-thumb-five">
-										<span class="name">Lee Mun</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Useful tips for Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium E</div>
-					  			</div>
-					  		</li>
-					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">3.00 PM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-six.jpg" alt="speaker-thumb-six">
-										<span class="name">Lee Mun</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Useful tips for Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium E</div>
-					  			</div>
-					  		</li>
-					  	</ul>
- {%- endcomment -%}
 							<table class="program-table">
-								<tr>
-									<th class="col-time">&nbsp;</th>
+								<tr class="program-header">
+									<th class="col-time" style="width: 80px; padding-right: 20px;">&nbsp;</th>
 									{%- for room in day.rooms -%}
-										<th class="col-room" style="width: calc(100%/{{ n_rooms }})">{{ room.name }}</th>
+										<th class="col-room" style="width: calc((100% - 80px)/{{ n_rooms }})">{{ room.name }}</th>
 									{%- endfor -%}
 								</tr>
 
 								{%- for slot in day.slots -%}
 									<tr>
-										<td style="text-align: right;">{{ slot }}</td>
+										<td class="time">{{ slot }}</td>
 										{%- if day.roomless[slot] -%}
-											<td colspan="{{ n_rooms }}" style="color: red; text-align: center;">{{ day.roomless[slot].title }}</td>
+											<td colspan="{{ n_rooms }}" class="all-rooms">{{ day.roomless[slot].title }}</td>
 										{%- else -%}
 											{%- for room in day.rooms -%}
 												{%- assign talk = room.talks[slot] -%}
 												{%- if talk and talk.placeholder -%}
 												{%- elsif talk -%}
-													<td rowspan="{{ talk.span || 1 }}"><b>{{ talk.presenter }}</b><br>
+													<td class="not-empty" rowspan="{{ talk.span || 1 }}">
+														{{ talk.presenter }}<br>
 														{%- capture talk_id -%}{{ day.name | append: '-' | append: room.name | append: '-' | append: slot | slugify }}{%- endcapture -%}
-														<a href="#" data-toggle="modal" data-target="#{{ talk_id }}">{{ talk.title }}</a>
+														<b><a href="#" style="color: black;" data-toggle="modal" data-target="#{{ talk_id }}">{{ talk.title }}</a></b>
 
 														<!-- Modal -->
 														<div class="modal fade" id="{{ talk_id }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
