@@ -175,7 +175,35 @@
 												{%- assign talk = room.talks[slot] -%}
 												{%- if talk and talk.placeholder -%}
 												{%- elsif talk -%}
-													<td rowspan="{{ talk.span || 1 }}"><b>{{ talk.presenter }}</b><br>{{ talk.title }}</td>
+													<td rowspan="{{ talk.span || 1 }}"><b>{{ talk.presenter }}</b><br>
+														{%- capture talk_id -%}{{ day.name | append: '-' | append: room.name | append: '-' | append: slot | slugify }}{%- endcapture -%}
+														<a href="#" data-toggle="modal" data-target="#{{ talk_id }}">{{ talk.title }}</a>
+
+														<!-- Modal -->
+														<div class="modal fade" id="{{ talk_id }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+															<div class="modal-dialog" role="document">
+																<div class="modal-content">
+																	<div class="modal-header">
+																		<h5 class="modal-title" id="exampleModalLabel">{{ talk.title }}</h5>
+																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																			<span aria-hidden="true">&times;</span>
+																		</button>
+																	</div>
+																	<div class="modal-body">
+																		<p><b>{{ talk.presenter }}</b></p>
+																		<div>{{ talk.abstract }}</div>
+																		{% for tag in talk.tags %}
+																		<span class="badge badge-secondary">{{ tag }}</span>
+																		{% endfor %}
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+													</td>
 												{%- else -%}
 													<td>&nbsp;</td>
 												{%- endif -%}

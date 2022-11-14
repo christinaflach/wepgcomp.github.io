@@ -7,7 +7,7 @@ days:
   rooms:
   - name: Sala 12
     talks:
-      '9:00': { presenter: Albert Einstein, title: 'Teoria da relatividade' }
+      '9:00': { presenter: Albert Einstein, title: 'Teoria da relatividade', chair: 'Manoel Mendonça', tags: ['Física'], abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dui tellus, efficitur non accumsan vel, porta at enim. Aenean quis faucibus odio. Mauris sed laoreet tortor. Donec posuere erat dignissim nibh fermentum, vel posuere quam ultrices. Aliquam sed rutrum nunc, et semper magna. Mauris et orci ligula. Aenean finibus dui vitae diam tristique maximus in eget erat. Ut ut malesuada erat. Nulla aliquam ligula elit, eu venenatis tortor ultricies eu.'}
       '9:15': { presenter: von Neumann, title: 'Arquitetura de von Neumann' }
       '9:30': { presenter: Edsger Dijkstra, title: 'Distância em grafos', span: 2 }
       '9:45': { placeholder: true }
