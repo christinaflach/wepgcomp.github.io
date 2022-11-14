@@ -21,6 +21,7 @@
 						<li class="nav-item">
 							<a class="nav-link {% if forloop.index == 1 %}active{% endif %}" href="#{{ day.name }}" data-toggle="pill">
 								{{ day.name }}
+								<span>{{ day.date }}</span>
 							</a>
 						</li>
 						{%- endfor -%}

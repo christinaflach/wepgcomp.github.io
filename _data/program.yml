@@ -1,5 +1,6 @@
 days:
 - name: Quinta
+  date: 1 / 12 / 2022
   slots: ['8:30', '9:00', '9:15', '9:30', '9:45', '10:00', '10:30', '10:45']
   roomless:
     '8:30': { presenter: Manoel Mendonça, title: 'Abertura do evento (Auditório do IC)' }
@@ -16,6 +17,7 @@ days:
       '9:30': { presenter: Mark Zuckerberg, title: 'Redes sociais' }
       '9:45': { presenter: Elon Musk, title: 'Foguetes espaciais' }
 - name: Sexta
+  date: 2 / 12 / 2022
   slots: ['9:00', '9:15', '9:30', '9:45', '10:00']
   roomless:
     '10:00': { title: 'Encerramento' }
