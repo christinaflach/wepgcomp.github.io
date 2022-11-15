@@ -3,7 +3,7 @@ layout: event
 title: Event
 
 logo: assets/images/logo-ic.png
-event_initials: WEPGCOMP
+event_initials: WEPGCOMP 2022
 event_name: Workshop de Pós-Graduação em Ciência da Computação do PGCOMP-UFBA
 date_and_place: 1º e 2 de dezembro de 2022, Salvador, BA
 kickoff: { year: 2022, month: 12, day: 1, hour: 8, minute: 30 }
