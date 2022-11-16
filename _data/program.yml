@@ -1,11 +1,11 @@
 days:
 - name: Quinta
   date: 1 / 12 / 2022
-  slots: ['9:00', '9:15', '9:30', '9:45', '10:00', '10:15', '10:30', '11:00', '11:15', '11:30', '11:45', '12:00']
+  slots: ['9:00', '9:15', '9:30', '9:45', '10:00', '10:15', '10:30', '11:00', '11:15', '11:30', '11:45', '12:00', '12:15']
   roomless:
-    '9:00': { presenter: Manoel Mendonça, title: 'Abertura do evento (Auditório do IC)' }
-    '9:15': { presenter: Alan Turing, title: 'O PGCOMP é CAPES 5!' }
-    '10:00': { presenter: Comissão Organizadora, title: 'Informações sobre o WEPGCOMP 2022' }
+    '9:00': { presenter: Manoel Mendonça, title: 'Abertura do WEPGCOMP 2022 (Auditório do IC)' }
+    '9:15': { presenter: Alan Turing, title: 'Palestra: O PGCOMP é CAPES 5!' }
+    '10:00': { presenter: Comissão Organizadora, title: 'Programação do evento, span: 2 }
     '10:30': { title: 'Coffee break' }
   rooms:
   - name: Sala 12
@@ -14,16 +14,16 @@ days:
       '11:15': { presenter: von Neumann, title: 'Arquitetura de von Neumann' }
       '11:30': { presenter: Edsger Dijkstra, title: 'Distância em grafos' }
       '11:45': { presenter: Ada Lovelace, title: 'Introdução à Programação' }
-      '12:00': { placeholder: true }
+      '12:30': { placeholder: true }
   - name: Sala 13
     talks:
       '11:00': { presenter: Mark Zuckerberg, title: 'Redes sociais' }
       '11:15': { presenter: Elon Musk, title: 'Foguetes espaciais' }
       '11:45': { presenter: Margaret Hamilton, title: 'Viagem à Lua' }
-      '12:00': { placeholder: true }
+      '12:30': { placeholder: true }
 - name: Sexta
   date: 2 / 12 / 2022
-  slots: ['9:00', '9:15', '9:30', '9:45', '10:00', '10:15', '10:30']
+  slots: ['9:00', '9:15', '9:30', '9:45', '10:00', '10:15', '10:30', '11:00']
   roomless:
     '10:30': { title: 'Encerramento' }
   rooms:
