@@ -4,6 +4,7 @@ days:
   slots: ['9:00', '9:15', '9:30', '9:45', '10:00', '10:15', '10:30', '11:00', '11:15', '11:30', '11:45', '12:00']
   roomless:
     '9:00': { presenter: Manoel Mendonça, title: 'Abertura do evento (Auditório do IC)' }
+    '9:15': { presenter: Alan Turing, title: 'O PGCOMP é CAPES 5!', span: 4 }
     '10:30': { title: 'Coffee break' }
   rooms:
   - name: Sala 12
