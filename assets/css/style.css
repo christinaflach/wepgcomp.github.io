@@ -13,7 +13,7 @@
 }
 .program-table td, .program-table th {
   background-color: white;
-  padding: 15px;
+  padding: 5px 15px 5px 15px;
   border-bottom: 4px solid white;
 }
 .program-table .not-empty {
