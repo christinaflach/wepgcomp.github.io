@@ -12,7 +12,7 @@ kickoff: { year: 2022, month: 12, day: 1, hour: 8, minute: 30 }
 about1: O Workshop de Pós-Graduação em Ciência da Computação – WEPGCOMP – é um evento anual organizado pelo Programa de Pós Graduação em Ciência da Computação (PGCOMP) da Universidade Federal da Bahia (UFBA).
 about2: O objetivo do evento é apresentar as pesquisas que estão sendo realizadas pelos alunos de doutorado (a partir do segundo ano), bem como propiciar um ambiente de troca de conhecimento e congregação para toda a comunidade. 
 
-schedule_preamble: O evento ocorrerá em dois dias, com sessões paralelas.
+schedule_preamble: 'O evento ocorrerá em dois dias, com sessões paralelas. <h1>ATENÇÃO: ESTA PROGRAMAÇÃO É APENAS UM RASCUNHO E SERÁ ALTERADA</h1>'
 
 latitude: -13.000013
 longitude: -38.507598
