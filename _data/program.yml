@@ -1,20 +1,28 @@
 days:
 - name: Quinta
   date: 1 / 12 / 2022
-  slots: ['9:00', '9:15', '9:30', '9:45', '10:00', '10:15', '10:30', '11:00', '11:15', '11:30', '11:45', '12:00', '12:15']
+  slots: [
+    '9:00', '9:15', '9:30', '9:45', '10:00', '10:15',
+    '10:30', # coffee break
+    '11:00', '11:15', '11:30', '11:45', '12:00', '12:15',
+    '12:30', # lunch break
+    '14:00', '14:15', '14:30', '14:45', '15:00', '15:15',
+    '15:30', # coffee break
+    '16:00', '16:15', '16:30', '16:45', '17:00', '17:15'
+  ]
   roomless:
     '9:00':  { presenter: Manoel Mendonça, title: 'Abertura do WEPGCOMP 2022 (Auditório da FACOM)' }
     '9:15':  { presenter: Alan Turing, title: 'Palestra: O PGCOMP é CAPES 5!' }
     '10:00': { presenter: Comissão Organizadora, title: 'Programação' }
     '10:30': { title: 'Coffee break' }
   rooms:
-  - name: Sala 12
+  - name: Sala A
     talks:
-      '11:00': { presenter: Albert Einstein, title: 'Teoria da relatividade', chair: 'Manoel Mendonça', tags: ['Física'], abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dui tellus, efficitur non accumsan vel, porta at enim. Aenean quis faucibus odio. Mauris sed laoreet tortor. Donec posuere erat dignissim nibh fermentum, vel posuere quam ultrices. Aliquam sed rutrum nunc, et semper magna. Mauris et orci ligula. Aenean finibus dui vitae diam tristique maximus in eget erat. Ut ut malesuada erat. Nulla aliquam ligula elit, eu venenatis tortor ultricies eu.'}
+      '9:00': { presenter: Albert Einstein, title: 'Teoria da relatividade', chair: 'Manoel Mendonça', tags: ['Física'], abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum ipsum ut magna efficitur molestie. Nunc rutrum venenatis ligula nec mattis. Nunc rutrum malesuada mauris, sit amet porttitor purus pellentesque rutrum. Suspendisse potenti. Donec ac molestie sapien, ullamcorper suscipit arcu. Aliquam dignissim leo sed vehicula consequat. Aliquam eleifend sagittis magna, at congue nulla auctor eget. Vivamus eu mauris id orci imperdiet vehicula. Duis fermentum sagittis sem nec dictum. Aliquam erat volutpat. Maecenas in sollicitudin eros, id fringilla elit. Vivamus a mauris nulla. Suspendisse nisl dui, bibendum sed massa sit amet, bibendum semper tellus. Vivamus id tellus molestie, imperdiet augue vel, interdum nisi. Cras venenatis, magna quis bibendum pulvinar, urna leo tristique est, et luctus sem leo sed quam. Maecenas semper ut odio nec viverra. Aliquam gravida aliquam magna, sit amet euismod magna accumsan ac. Aliquam eu justo at massa dapibus iaculis id non nibh. Donec nec ipsum nisi. Vivamus a purus eu ante congue ornare eget eu augue. Fusce et lacinia felis, eu mattis metus. Morbi vitae nisl blandit leo tempus condimentum. Aliquam erat volutpat. Fusce id risus eros. In consectetur pulvinar nisi, ornare vestibulum magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque id odio eu turpis volutpat commodo eu nec tellus. In tellus nisl, gravida vitae vestibulum a, sagittis vitae ipsum. In hac habitasse platea dictumst mauris.'}
       '11:15': { presenter: von Neumann, title: 'Arquitetura de von Neumann' }
       '11:30': { presenter: Edsger Dijkstra, title: 'Distância em grafos' }
       '11:45': { presenter: Ada Lovelace, title: 'Introdução à Programação' }
-  - name: Sala 13
+  - name: Sala B
     talks:
       '11:00': { presenter: Mark Zuckerberg, title: 'Redes sociais' }
       '11:15': { presenter: Elon Musk, title: 'Foguetes espaciais' }
@@ -25,38 +33,14 @@ days:
   roomless:
     '10:30': { title: 'Encerramento' }
   rooms:
-  - name: Sala 12
+  - name: Sala A
     talks:
       '9:00': { presenter: Albert Einstein, title: 'Teoria da relatividade' }
       '9:15': { presenter: von Neumann, title: 'Arquitetura de von Neumann' }
       '9:30': { presenter: Ada Lovelace, title: 'Introdução à Programação' }
-  - name: Sala 13
+  - name: Sala B
     talks:
       '9:00': { presenter: Ada Lovelace, title: 'Introdução à Programação'}
       '9:15': { presenter: Albert Einstein, title: 'Teoria da relatividade' }
       '9:30': { presenter: von Neumann, title: 'Arquitetura de von Neumann' }
 
-# talks:
-#   ['9:00', 'Auditório', 'Quinta']: { presenter: Manoel Mendonça, title: 'Abertura do evento' }
-#   ['11:00', 'Sala 12', 'Quinta']: { presenter: Albert Einstein, title: 'Teoria da relatividade' }
-#   ['11:15', 'Sala 12', 'Quinta']: { presenter: von Neumann, title: 'Arquitetura de von Neumann' }
-#   ['11:30', 'Sala 12', 'Quinta']: { presenter: von Neumann, title: 'Arquitetura de von Neumann' }
-#   ['11:45', 'Sala 12', 'Quinta']: { presenter: Ada Lovelace, title: 'Introdução à Programação'}
-
-#   - { presenter: Manoel Mendonça, title: 'Abertura do evento' }
-#   - { presenter: Fulano de Tal, title: "Programando em Pascal", abstract: "alskdj oqwije oqwiej lacmn o2wn ekjnw eiwne oqine oqiwne oqiweno qwn lxan soidn oiqwne " }
-
-# days:
-# - name: QUINTA
-#   abbr: QUI
-#   date: 2022-12-01
-#   rooms:
-#   - name: Sala 12
-#     talks:
-#       - { presenter: Fulano de Tal, title: "Programando em Pascal", abstract: "alskdj oqwije oqwiej lacmn o2wn ekjnw eiwne oqine oqiwne oqiweno qwn lxan soidn oiqwne " }
-#       - name: Vim Impetus Placerat Cotidieque Ad
-#         time_start: '12:00'
-#         time_end: '12:45'
-#       - name: Condimentum Vitae Sapien Pellentesque
-#         time_start: '12:45'
-#         time_end: '13:30'
