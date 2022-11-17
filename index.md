@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Event
+title: WEPGCOMP 2022
 
 logo: assets/images/logo-ic.png
 event_initials: WEPGCOMP 2022
