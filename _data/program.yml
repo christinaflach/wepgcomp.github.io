@@ -2,10 +2,10 @@ days:
 - name: Dia 1
   date: 1 / 12 / 2022
   slots: [
-    '9:00', '9:15', '9:30', '9:45', '10:00', '10:15',
-    '10:30', # coffee break
-    '11:00', '11:15', '11:30', '11:45', '12:00', '12:15',
-    '12:30', # lunch break
+    '9:00',
+    '10:00', # coffee break
+    '10:30', '10:45', '11:00', '11:15', '11:30', '11:45', '12:00',
+    '12:15', # lunch break
     '14:00', '14:15', '14:30', '14:45', '15:00', '15:15',
     '15:30', # coffee break
     '16:00', '16:15', '16:30', '16:45', '17:00', '17:15'
@@ -22,67 +22,61 @@ days:
   - name: Sala B
 breaks:
   'Dia 1, 9:00': { title: 'Abertura (auditório da FACOM)' }
-  'Dia 1, 10:30': { title: 'Coffee break' }
-  'Dia 1, 12:30': { title: 'Almoço' }
+  'Dia 1, 10:00': { title: 'Coffee break' }
+  'Dia 1, 12:15': { title: 'Almoço' }
   'Dia 1, 15:30': { title: 'Coffee break' }
 talks:
-  'Dia 1, Sala A, 9:30': { presenter: Rafaela Souza Alcântara, title: 'Redução de artefatos metálicos em tomografias computadorizadas para aplicações odontológicas' }
-  'Dia 1, Sala A, 9:45': { presenter: Paulo Roberto Silva Chagas Júnior, title: 'Uncertainty-aware membranous nephropathy classification: A semi-supervised approach to improve uncertainty representation' }
-  'Dia 1, Sala A, 10:00': { presenter: Leone Da Silva de Jesus, title: 'Técnicas antifraude para o reconhecimento facial em ambientes não controlados' }
-  'Dia 1, Sala A, 10:15': { presenter: Bernardo Peters Menezes Silva, title: 'Geração automática de laudos de radiografias panorâmicas usando Deep Learning' }
-  'Dia 1, Sala B, 9:30': { presenter: Bruno Souza Cabral, title: 'Open Information Extraction for Portuguese' }
-  'Dia 1, Sala B, 9:45': { presenter: Mariese Conceicao Alves dos Santos, title: 'Grafo Ponderado Utilizado na Modelagem de Descarregamento de Dados com Aprendizado Federado' }
-  'Dia 1, Sala B, 10:00': { presenter: Saulo Antonio de Lima Matos, title: 'Invariantes e Estruturas de Vizinhança para 1-fatorações de grafos completos' }
-  'Dia 1, Sala B, 10:15': { presenter: Julio Oliveira da Silva, title: 'Aprendizado de Máquina aplicado na descoberta de Fármacos' }
-  'Dia 1, Sala A, 11:00': { presenter: Mirlei Moura da Silva, title: 'Clustering of mixed data: time series and non-temporal data' }
-  'Dia 1, Sala A, 11:15': { presenter: Alberto Pietro SIroni, title: 'MULTIMODALITY MACHINE LEARNING APPROACH TO EARLY OUTBREAK DETECTION BASED ON PRIMARY CARE AND RESPIRATORY DISEASE ELECTRONIC HEALTH RECORDS' }
-  'Dia 1, Sala A, 11:30': { presenter: Tiago Fernandes Machado, title: 'Um score para predição de desfechos em pacientes com doença falciforme' }
-  'Dia 1, Sala A, 11:45': { presenter: Jaziel Souza Lobo, title: 'UAWARE ALERT: UMA PLATAFORMA SENSÍVEL AO CONTEXTO PARA ALERTAS  ANTECIPADOS ACESSÍVEIS ' }
-  'Dia 1, Sala A, 12:00': { presenter: Diego Corrêa da Silva, title: 'Exploiting Calibration Settings toward Fairness in Recommender Systems' }
-  'Dia 1, Sala A, 12:15': { presenter: Paulo Roberto de Souza, title: 'Explorando o Capital Social em Redes Sociais para Sistemas de Recomendação' }
-  'Dia 1, Sala B, 11:00': { presenter: Roselane Silva Farias, title: 'Understanding Quality Assurance Engineers’ Brain from the Neuroscience Perspective' }
-  'Dia 1, Sala B, 11:15': { presenter: Leandro Oliveira de Souza, title: 'Automated Reengineering of Systems into SPL via Software Transplantation' }
-  'Dia 1, Sala B, 11:30': { presenter: João Pedro Dantas Bittencourt de Queiroz, title: 'ABORDAGEM BASEADA EM VALOR PARA APOIAR A GESTÃO DA DÍVIDA TÉCNICA NO DESENVOLVIMENTO DE PROJETOS DE SOFTWARE' }
-  'Dia 1, Sala B, 11:45': { presenter: Denivan do Carmo Campos da Silva, title: 'A comprehensive study of test smells based on developers’ expertise in open source projects' }
-  'Dia 1, Sala B, 12:00': { presenter: Railana Santana Lago, title: 'Processo automatizado de identificação e refatoração de test smells' }
-  'Dia 1, Sala B, 12:15': { presenter: Luana Almeida Martins, title: 'Smart prediction for test smells refactorings' }
-  'Dia 1, Sala A, 14:00': { presenter: Lidiany Cerqueira Santos, title: 'Impacto dos aspectos humanos no desenvolvimento de software' }
-  'Dia 1, Sala A, 14:15': { presenter: Jenifer Vieira Toledo Tavares, title: 'MODELO PARA AVALIAR A QUALIDADE EM ECOSSISTEMAS DE SOFTWARE DE CÓDIGO ABERTO' }
-  'Dia 1, Sala A, 14:30': { presenter: Alex Silva Santos, title: 'QUALITY OF SERVICE BASED APPROACHES TO DEAL WITH RESOURCE CRUNCH IN ELASTIC OPTICAL NETWORKS' }
-  'Dia 1, Sala A, 14:45': { presenter: Matias Romário Pinheiro dos Santos, title: 'Particionamento inteligente de funções em Fronthaul óptico na CF-RAN' }
-  'Dia 1, Sala A, 15:00': { presenter: Nilton Flávio Sousa Seixas, title: 'Data-driven decision making frameworks' }
-  'Dia 1, Sala A, 15:15': { presenter: Diego Braga Monteiro de Moura, title: 'Escalonamento de Aplicações de Grafo em Memórias Heterogêneas' }
+  'Dia 1, Sala A, 10:30': { presenter: Rafaela Souza Alcântara, title: 'Redução de artefatos metálicos em tomografias computadorizadas para aplicações odontológicas' }
+  'Dia 1, Sala A, 10:45': { presenter: Paulo Roberto Silva Chagas Júnior, title: 'Uncertainty-aware membranous nephropathy classification: A semi-supervised approach to improve uncertainty representation' }
+  'Dia 1, Sala A, 11:00': { presenter: Leone Da Silva de Jesus, title: 'Técnicas antifraude para o reconhecimento facial em ambientes não controlados' }
+  'Dia 1, Sala A, 11:15': { presenter: Bernardo Peters Menezes Silva, title: 'Geração automática de laudos de radiografias panorâmicas usando Deep Learning' }
+  'Dia 1, Sala A, 11:30': { presenter: Bruno Souza Cabral, title: 'Open Information Extraction for Portuguese' }
+  'Dia 1, Sala A, 11:45': { presenter: Diego Corrêa da Silva, title: 'Exploiting Calibration Settings toward Fairness in Recommender Systems' }
+  'Dia 1, Sala A, 12:00': { presenter: Paulo Roberto de Souza, title: 'Explorando o Capital Social em Redes Sociais para Sistemas de Recomendação' }
+  'Dia 1, Sala B, 10:30': { presenter: Roselane Silva Farias, title: 'Understanding Quality Assurance Engineers’ Brain from the Neuroscience Perspective' }
+  'Dia 1, Sala B, 10:45': { presenter: Leandro Oliveira de Souza, title: 'Automated Reengineering of Systems into SPL via Software Transplantation' }
+  'Dia 1, Sala B, 11:00': { presenter: João Pedro Dantas Bittencourt de Queiroz, title: 'ABORDAGEM BASEADA EM VALOR PARA APOIAR A GESTÃO DA DÍVIDA TÉCNICA NO DESENVOLVIMENTO DE PROJETOS DE SOFTWARE' }
+  'Dia 1, Sala B, 11:15': { presenter: Railana Santana Lago, title: 'Processo automatizado de identificação e refatoração de test smells' }
+  'Dia 1, Sala B, 11:30': { presenter: Denivan do Carmo Campos da Silva, title: 'A comprehensive study of test smells based on developers’ expertise in open source projects' }
+  'Dia 1, Sala B, 11:45': { presenter: Luana Almeida Martins, title: 'Smart prediction for test smells refactorings' }
+  'Dia 1, Sala B, 12:00': { presenter: Lidiany Cerqueira Santos, title: 'Impacto dos aspectos humanos no desenvolvimento de software' }
+  'Dia 1, Sala A, 14:00': { presenter: Tadeu Nogueira Costa de Andrade, title: 'Ferramentas de estatísticas e de inteligência computacional para análise do WCET em arquiteturas multicores' }
+  'Dia 1, Sala A, 14:15': { presenter: Edeyson Andrade Gomes, title: 'Uma abordagem baseada em ontologia para auxiliar a aplicação de princípios curriculares orientados a competências em recursos educacionais abertos.' }
+  'Dia 1, Sala A, 14:30': { presenter: Claudio Junior Nascimento da Silva, title: 'Integração de Blockchain e IA em Ecossistemas IoT Tolerante a Falhas' }
+  'Dia 1, Sala A, 14:45': { presenter: Alex Silva Santos, title: 'QUALITY OF SERVICE BASED APPROACHES TO DEAL WITH RESOURCE CRUNCH IN ELASTIC OPTICAL NETWORKS' }
+  'Dia 1, Sala A, 15:00': { presenter: Matias Romário Pinheiro dos Santos, title: 'Particionamento inteligente de funções em Fronthaul óptico na CF-RAN' }
+  'Dia 1, Sala A, 15:15': { presenter: Nilton Flávio Sousa Seixas, title: 'Data-driven decision making frameworks' }
   'Dia 1, Sala B, 14:00': { presenter: Felipe Gustavo de Souza Gomes, title: 'Um guideline para análise de literatura cinza em fóruns de discussão' }
   'Dia 1, Sala B, 14:15': { presenter: Beatriz Silva de Santana, title: 'Segurança psicológica em Engenharia de Software ' }
   'Dia 1, Sala B, 14:30': { presenter: Antonio Carlos Marcelino de Paula, title: 'Estudando Bunrout em foruns de discussão de Engenharia de Software' }
   'Dia 1, Sala B, 14:45': { presenter: Emmanuel Sávio Silva Freire, title: 'Organização do estado da prática sobre prevenção, monitoramento e pagamento da dívida técnica em projetos de software' }
   'Dia 1, Sala B, 15:00': { presenter: Rafael Meneses Santos, title: 'Debt Deep Learning:  Um classificador automático de Dívida Técnica Auto-Admitida' }
   'Dia 1, Sala B, 15:15': { presenter: Glaucya Carreiro Boechat, title: 'Uma Investigação sobre Análise de Sentimentos em Issues do GitHub' }
-  'Dia 1, Sala A, 16:00': { presenter: Claudio Junior Nascimento da Silva, title: 'Integração de Blockchain e IA em Ecossistemas IoT Tolerante a Falhas' }
-  'Dia 1, Sala A, 16:15': { presenter: Elisangela Oliveira Carneiro, title: 'Sistemas de Reputação baseado em Blockchain para ambientes IoT' }
-  'Dia 1, Sala A, 16:30': { presenter: Rita de Cássia Novaes Barretto, title: 'Beyond SDI environment: expanding the spatial data infrastructure through the blockchain' }
-  'Dia 1, Sala A, 16:45': { presenter: Antonio Augusto Teixeira Ribeiro Coutinho, title: 'FogLedger: A Rapid-Prototyping Emulation Environment for Integrated Fog-DLT Systems' }
-  'Dia 1, Sala A, 17:00': { presenter: Jauberth Weyll Abijaude, title: 'Improving Data Security with Blockchain and Internet of Things in the Gourmet Cocoa Bean Fermentation Process' }
-  'Dia 1, Sala A, 17:15': { presenter: , title: '' }
-  'Dia 1, Sala B, 16:00': { presenter: , title: '' }
-  'Dia 1, Sala B, 16:15': { presenter: , title: '' }
-  'Dia 1, Sala B, 16:30': { presenter: , title: '' }
-  'Dia 1, Sala B, 16:45': { presenter: , title: '' }
-  'Dia 1, Sala B, 17:00': { presenter: , title: '' }
-  'Dia 1, Sala B, 17:15': { presenter: , title: '' }
-  'Dia 2, Sala A, 9:00': { presenter: Mayka de Souza Lima, title: 'A CONCEPTUAL FRAMEWORK FOR THE DESIGN OF VIRTUAL LEARNING ENVIRONMENTS' }
-  'Dia 2, Sala A, 9:15': { presenter: Bianca Leite Santana, title: 'Avaliação de Conceitos, Práticas e Perspectivas de Pensamento Computacional' }
-  'Dia 2, Sala A, 9:30': { presenter: Silvio Luiz Bragatto Boss, title: 'Avaliação automática de mapas conceituais baseada na teoria da aprendizagem significativa' }
-  'Dia 2, Sala A, 9:45': { presenter: Beatriz Brito do Rego, title: 'Investigação sobre a concepção do design de sistemas computacionais interativos: um estudo sob a perspectiva da equidade' }
-  'Dia 2, Sala A, 10:00': { presenter: Valeria Argolo Rosa de Queiroz, title: 'DESIGN DE INTERAÇÃO SEMIOPARTICIPATIVO POR SUJEITOS IDOSOS: EMPATIA E ENGAJAMENTO NA PRODUÇÃO DE TECNOLOGIA' }
-  'Dia 2, Sala A, 10:15': { presenter: Diego Zabot, title: 'Game design como metodologia de ensino' }
-  'Dia 2, Sala A, 10:30': { presenter: Edeyson Andrade Gomes, title: 'Uma abordagem baseada em ontologia para auxiliar a aplicação de princípios curriculares orientados a competências em recursos educacionais abertos.' }
-  'Dia 2, Sala A, 10:45': { presenter: Ailton Santos Ribeiro, title: 'An approach to support the personalization of self-expressive avatars using context-awareness' }
-  'Dia 2, Sala B, 9:00': { presenter: Tadeu Nogueira Costa de Andrade, title: 'Ferramentas de estatísticas e de inteligência computacional para análise do WCET em arquiteturas multicores' }
-  'Dia 2, Sala B, 9:15': { presenter: Adriana Viriato Ribeiro, title: 'On Supporting Ambient Assisted Living Applications through Named Data Networking' }
-  'Dia 2, Sala B, 9:30': { presenter: Andre Luiz Romano Madureira, title: 'IoTP: On Supporting IoT Data Aggregation Through Programmable Data Planes' }
-  'Dia 2, Sala B, 9:45': { presenter: Francisco Renato Cavalcante Araújo, title: 'Uma arquitetura NDN aprimorada para melhoria de QoS' }
-  'Dia 2, Sala B, 10:00': { presenter: Antonio Mateus de Sousa, title: 'NDN of Trust: a native decentralized architecture based on trust for the Web 3.0' }
-  'Dia 2, Sala B, 10:15': { presenter: Antônio Cleber de Sousa Araújo, title: 'Connectionless communications: a new approach' }
+  'Dia 1, Sala A, 16:00': { presenter: Jaziel Souza Lobo, title: 'UAWARE ALERT: UMA PLATAFORMA SENSÍVEL AO CONTEXTO PARA ALERTAS  ANTECIPADOS ACESSÍVEIS ' }
+  'Dia 1, Sala A, 16:15': { presenter: Ailton Santos Ribeiro, title: 'An approach to support the personalization of self-expressive avatars using context-awareness' }
+  'Dia 1, Sala A, 16:30': { presenter: Elisangela Oliveira Carneiro, title: 'Sistemas de Reputação baseado em Blockchain para ambientes IoT' }
+  'Dia 1, Sala A, 16:45': { presenter: Rita de Cássia Novaes Barretto, title: 'Beyond SDI environment: expanding the spatial data infrastructure through the blockchain' }
+  'Dia 1, Sala A, 17:00': { presenter: Antonio Augusto Teixeira Ribeiro Coutinho, title: 'FogLedger: A Rapid-Prototyping Emulation Environment for Integrated Fog-DLT Systems' }
+  'Dia 1, Sala A, 17:15': { presenter: Jauberth Weyll Abijaude, title: 'Improving Data Security with Blockchain and Internet of Things in the Gourmet Cocoa Bean Fermentation Process' }
+  'Dia 1, Sala B, 16:00': { presenter: Mariese Conceicao Alves dos Santos, title: 'Grafo Ponderado Utilizado na Modelagem de Descarregamento de Dados com Aprendizado Federado' }
+  'Dia 1, Sala B, 16:15': { presenter: Saulo Antonio de Lima Matos, title: 'Invariantes e Estruturas de Vizinhança para 1-fatorações de grafos completos' }
+  'Dia 1, Sala B, 16:30': { presenter: Alberto Pietro SIroni, title: 'MULTIMODALITY MACHINE LEARNING APPROACH TO EARLY OUTBREAK DETECTION BASED ON PRIMARY CARE AND RESPIRATORY DISEASE ELECTRONIC HEALTH RECORDS' }
+  'Dia 1, Sala B, 16:45': { presenter: Tiago Fernandes Machado, title: 'Um score para predição de desfechos em pacientes com doença falciforme' }
+  'Dia 1, Sala B, 17:00': { presenter: Julio Oliveira da Silva, title: 'Aprendizado de Máquina aplicado na descoberta de Fármacos' }
+  'Dia 1, Sala B, 17:15': { presenter: Mirlei Moura da Silva, title: 'Clustering of mixed data: time series and non-temporal data' }
+
+  'Dia 2, Sala A, 9:15': { presenter: Silvio Luiz Bragatto Boss, title: 'Avaliação automática de mapas conceituais baseada na teoria da aprendizagem significativa' }
+  'Dia 2, Sala A, 9:30': { presenter: Beatriz Brito do Rego, title: 'Investigação sobre a concepção do design de sistemas computacionais interativos: um estudo sob a perspectiva da equidade' }
+  'Dia 2, Sala A, 9:45': { presenter: Valeria Argolo Rosa de Queiroz, title: 'DESIGN DE INTERAÇÃO SEMIOPARTICIPATIVO POR SUJEITOS IDOSOS: EMPATIA E ENGAJAMENTO NA PRODUÇÃO DE TECNOLOGIA' }
+  'Dia 2, Sala A, 10:00': { presenter: Diego Zabot, title: 'Game design como metodologia de ensino' }
+  'Dia 2, Sala A, 10:15': { presenter: Mayka de Souza Lima, title: 'A CONCEPTUAL FRAMEWORK FOR THE DESIGN OF VIRTUAL LEARNING ENVIRONMENTS' }
+  'Dia 2, Sala A, 10:30': { presenter: Bianca Leite Santana, title: 'Avaliação de Conceitos, Práticas e Perspectivas de Pensamento Computacional' }
+  'Dia 2, Sala A, 10:45': { presenter: Jenifer Vieira Toledo Tavares, title: 'MODELO PARA AVALIAR A QUALIDADE EM ECOSSISTEMAS DE SOFTWARE DE CÓDIGO ABERTO' }
+  'Dia 2, Sala B, 9:00': { presenter: Adriana Viriato Ribeiro, title: 'On Supporting Ambient Assisted Living Applications through Named Data Networking' }
+  'Dia 2, Sala B, 9:15': { presenter: Andre Luiz Romano Madureira, title: 'IoTP: On Supporting IoT Data Aggregation Through Programmable Data Planes' }
+  'Dia 2, Sala B, 9:30': { presenter: Francisco Renato Cavalcante Araújo, title: 'Uma arquitetura NDN aprimorada para melhoria de QoS' }
+  'Dia 2, Sala B, 9:45': { presenter: Antonio Mateus de Sousa, title: 'NDN of Trust: a native decentralized architecture based on trust for the Web 3.0' }
+  'Dia 2, Sala B, 10:00': { presenter: Antônio Cleber de Sousa Araújo, title: 'Connectionless communications: a new approach' }
+  'Dia 2, Sala B, 10:15': { presenter: Guilherme Braga Araujo, title: 'Vehicular Named Data Networking' }
   'Dia 2, Sala B, 10:30': { presenter: Italo Valcy da Silva Brito, title: 'Distance Vector Routing Protocol for Named Data Networking' }
-  'Dia 2, Sala B, 10:45': { presenter: Guilherme Braga Araujo, title: 'Vehicular Named Data Networking' }
+  'Dia 2, Sala B, 10:45': { presenter: Diego Braga Monteiro de Moura, title: 'Escalonamento de Aplicações de Grafo em Memórias Heterogêneas' }
