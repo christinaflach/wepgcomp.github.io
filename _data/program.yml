@@ -21,7 +21,7 @@ days:
   - name: Sala A
   - name: Sala B
 breaks:
-  'Dia 1, 9:00': { title: 'Abertura (auditório da FACOM)' }
+  'Dia 1, 9:00': { title: 'Abertura (Auditório da Faculdade de Comunicação (FACOM-UFBA)' }
   'Dia 1, 10:00': { title: 'Coffee break' }
   'Dia 1, 12:15': { title: 'Almoço' }
   'Dia 1, 15:30': { title: 'Coffee break' }
@@ -60,7 +60,7 @@ talks:
   'Dia 1, Sala A, 17:15': { presenter: Jauberth Weyll Abijaude, title: 'Improving Data Security with Blockchain and Internet of Things in the Gourmet Cocoa Bean Fermentation Process' }
   'Dia 1, Sala B, 16:00': { presenter: Mariese Conceicao Alves dos Santos, title: 'Grafo Ponderado Utilizado na Modelagem de Descarregamento de Dados com Aprendizado Federado' }
   'Dia 1, Sala B, 16:15': { presenter: Saulo Antonio de Lima Matos, title: 'Invariantes e Estruturas de Vizinhança para 1-fatorações de grafos completos' }
-  'Dia 1, Sala B, 16:30': { presenter: Alberto Pietro SIroni, title: 'MULTIMODALITY MACHINE LEARNING APPROACH TO EARLY OUTBREAK DETECTION BASED ON PRIMARY CARE AND RESPIRATORY DISEASE ELECTRONIC HEALTH RECORDS' }
+  'Dia 1, Sala B, 16:30': { presenter: Alberto Pietro SIroni, title: 'Multimodality Machine Learning Approach to Early Outbreak Detection based on Primary Care and Respiratory Disease Electronic Health Records' }
   'Dia 1, Sala B, 16:45': { presenter: Tiago Fernandes Machado, title: 'Um score para predição de desfechos em pacientes com doença falciforme' }
   'Dia 1, Sala B, 17:00': { presenter: Julio Oliveira da Silva, title: 'Aprendizado de Máquina aplicado na descoberta de Fármacos' }
   'Dia 1, Sala B, 17:15': { presenter: Mirlei Moura da Silva, title: 'Clustering of mixed data: time series and non-temporal data' }
@@ -71,7 +71,7 @@ talks:
   'Dia 2, Sala A, 10:00': { presenter: Diego Zabot, title: 'Game design como metodologia de ensino' }
   'Dia 2, Sala A, 10:15': { presenter: Mayka de Souza Lima, title: 'A CONCEPTUAL FRAMEWORK FOR THE DESIGN OF VIRTUAL LEARNING ENVIRONMENTS' }
   'Dia 2, Sala A, 10:30': { presenter: Bianca Leite Santana, title: 'Avaliação de Conceitos, Práticas e Perspectivas de Pensamento Computacional' }
-  'Dia 2, Sala A, 10:45': { presenter: Jenifer Vieira Toledo Tavares, title: 'MODELO PARA AVALIAR A QUALIDADE EM ECOSSISTEMAS DE SOFTWARE DE CÓDIGO ABERTO' }
+  'Dia 2, Sala A, 10:45': { presenter: Jenifer Vieira Toledo Tavares, title: 'Um Modelo para avaliar a Qualidade em Ecossistemas de Software de Código Aberto' }
   'Dia 2, Sala B, 9:00': { presenter: Adriana Viriato Ribeiro, title: 'On Supporting Ambient Assisted Living Applications through Named Data Networking' }
   'Dia 2, Sala B, 9:15': { presenter: Andre Luiz Romano Madureira, title: 'IoTP: On Supporting IoT Data Aggregation Through Programmable Data Planes' }
   'Dia 2, Sala B, 9:30': { presenter: Francisco Renato Cavalcante Araújo, title: 'Uma arquitetura NDN aprimorada para melhoria de QoS' }
