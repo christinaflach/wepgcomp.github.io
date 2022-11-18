@@ -21,7 +21,7 @@ days:
   - name: Sala A
   - name: Sala B
 breaks:
-  'Dia 1, 9:00': { title: 'Abertura (Auditório da Faculdade de Comunicação (FACOM-UFBA)' }
+  'Dia 1, 9:00': { title: 'Abertura (Auditório da Faculdade de Comunicação (FACOM) da UFBA)' }
   'Dia 1, 10:00': { title: 'Coffee break' }
   'Dia 1, 12:15': { title: 'Almoço' }
   'Dia 1, 15:30': { title: 'Coffee break' }
