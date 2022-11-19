@@ -57,8 +57,12 @@
 												{%- elsif talk -%}
 													<td class="not-empty" rowspan="{{ talk.span || 1 }}">
 														{%- capture talk_id -%}{{ day.name | append: '-' | append: room.name | append: '-' | append: slot | slugify }}{%- endcapture -%}
-														<a href="#" style="color: black;" data-toggle="modal" data-target="#{{ talk_id }}">
-															<b>{{ talk.presenter_short | default: talk.presenter }}</b> - {{ talk.title }}
+														
+														<a class="two-column" href="#" style="color: black;" data-toggle="modal" data-target="#{{ talk_id }}">
+														{% if talk.presenter_photo and talk.presenter_photo != '' %}
+															<img src="photos/{{ talk.presenter_photo }}" alt="{{ talk.presenter }}" class="presenter-photo small">
+														{% endif %}
+															<span><b>{{ talk.presenter_short | default: talk.presenter }}</b> - {{ talk.title }}</span>
 														</a>
 
 														<!-- Modal -->
@@ -66,7 +70,12 @@
 															<div class="modal-dialog modal-lg" role="document">
 																<div class="modal-content">
 																	<div class="modal-header">
-																		<h5 class="modal-title" id="exampleModalLabel">{{ talk.title }}</h5>
+																		<h5 class="modal-title two-column" id="exampleModalLabel">
+																			{% if talk.presenter_photo and talk.presenter_photo != '' %}
+																				<img src="photos/{{ talk.presenter_photo }}" alt="{{ talk.presenter }}" class="presenter-photo medium">
+																			{% endif %}
+																			<div>{{ talk.title }}</div>
+																		</h5>
 																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 																			<span aria-hidden="true">&times;</span>
 																		</button>
