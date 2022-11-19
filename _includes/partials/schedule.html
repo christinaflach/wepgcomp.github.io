@@ -58,8 +58,7 @@
 													<td class="not-empty" rowspan="{{ talk.span || 1 }}">
 														{%- capture talk_id -%}{{ day.name | append: '-' | append: room.name | append: '-' | append: slot | slugify }}{%- endcapture -%}
 														<a href="#" style="color: black;" data-toggle="modal" data-target="#{{ talk_id }}">
-															<b>{{ talk.presenter }}</b><br>
-															{{ talk.title }}
+															<b>{{ talk.presenter_short | default: talk.presenter }}</b> - {{ talk.title }}
 														</a>
 
 														<!-- Modal -->
@@ -74,6 +73,7 @@
 																	</div>
 																	<div class="modal-body">
 																		<p><b>{{ talk.presenter }}</b></p>
+																		<p>Orientação: {{ talk.advisor }}{% if talk.coadvisor %}, {{ talk.coadvisor }} {% endif %}</p>
 																		<div>{{ talk.abstract }}</div>
 																		{% for tag in talk.tags %}
 																		<span class="badge badge-secondary">{{ tag }}</span>
