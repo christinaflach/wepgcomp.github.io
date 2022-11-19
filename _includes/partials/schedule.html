@@ -73,7 +73,7 @@
 																	</div>
 																	<div class="modal-body">
 																		<p><b>{{ talk.presenter }}</b></p>
-																		<p>Orientação: {{ talk.advisor }}{% if talk.coadvisor %}, {{ talk.coadvisor }} {% endif %}</p>
+																		<p>Orientação: {{ talk.advisor }}{% if talk.coadvisor and talk.coadvisor != '' %}, {{ talk.coadvisor }} {% endif %}</p>
 																		<div>{{ talk.abstract }}</div>
 																		{% for tag in talk.tags %}
 																		<span class="badge badge-secondary">{{ tag }}</span>
