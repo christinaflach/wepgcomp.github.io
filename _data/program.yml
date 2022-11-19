@@ -21,7 +21,7 @@ days:
   - name: Sala A
   - name: Sala B
 breaks:
-  'Dia 1, 9:00': { title: 'Abertura (auditório da FACOM)' }
+  'Dia 1, 9:00': { title: 'Abertura (Auditório da Faculdade de Comunicação (FACOM) da UFBA)' }
   'Dia 1, 10:00': { title: 'Coffee break' }
   'Dia 1, 12:15': { title: 'Almoço' }
   'Dia 1, 15:30': { title: 'Coffee break' }
@@ -60,18 +60,17 @@ talks:
   'Dia 1, Sala A, 17:15': { presenter: 'Jauberth Weyll Abijaude', presenter_short: 'Jauberth Weyll Abijaude', title: 'Improving Data Security with Blockchain and Internet of Things in the Gourmet Cocoa Bean Fermentation Process', abstract: '', advisor: 'Fabíola Gonçalves Pereira Greve', coadvisor: '', }
   'Dia 1, Sala B, 16:00': { presenter: 'Mariese Conceicao Alves dos Santos', presenter_short: 'Mariese Conceicao Alves dos Santos', title: 'Grafo Ponderado Utilizado na Modelagem de Descarregamento de Dados com Aprendizado Federado', abstract: '', advisor: 'Maycon Leone Maciel Peixoto', coadvisor: '', }
   'Dia 1, Sala B, 16:15': { presenter: 'Saulo Antonio de Lima Matos', presenter_short: 'Saulo Antonio de Lima Matos', title: 'Invariantes e Estruturas de Vizinhança para 1-fatorações de grafos completos', abstract: '', advisor: 'Tiago de Oliveira Januario', coadvisor: '', }
-  'Dia 1, Sala B, 16:30': { presenter: 'Alberto Pietro SIroni', presenter_short: 'Alberto Pietro SIroni', title: 'MULTIMODALITY MACHINE LEARNING APPROACH TO EARLY OUTBREAK DETECTION BASED ON PRIMARY CARE AND RESPIRATORY DISEASE ELECTRONIC HEALTH RECORDS', abstract: '', advisor: 'Marcos Ennes Barreto', coadvisor: '', }
+  'Dia 1, Sala B, 16:30': { presenter: 'Alberto Pietro SIroni', presenter_short: 'Alberto Pietro SIroni', title: 'Multimodality Machine Learning Approach to Early Outbreak Detection based on Primary Care and Respiratory Disease Electronic Health Records', abstract: '', advisor: 'Marcos Ennes Barreto', coadvisor: '', }
   'Dia 1, Sala B, 16:45': { presenter: 'Tiago Fernandes Machado', presenter_short: 'Tiago Fernandes Machado', title: 'Um score para predição de desfechos em pacientes com doença falciforme', abstract: '', advisor: 'Marcos Ennes Barreto', coadvisor: 'Cynara Gomes Barbosa', }
   'Dia 1, Sala B, 17:00': { presenter: 'Julio Oliveira da Silva', presenter_short: 'Julio Oliveira da Silva', title: 'Aprendizado de Máquina aplicado na descoberta de Fármacos', abstract: '', advisor: 'Marcos Ennes Barreto', coadvisor: '', }
   'Dia 1, Sala B, 17:15': { presenter: 'Mirlei Moura da Silva', presenter_short: 'Mirlei Moura da Silva', title: 'Clustering of mixed data: time series and non-temporal data', abstract: '', advisor: 'Marcos Ennes Barreto', coadvisor: '', }
-
   'Dia 2, Sala A, 9:15': { presenter: 'Silvio Luiz Bragatto Boss', presenter_short: '', title: 'Avaliação automática de mapas conceituais baseada na teoria da aprendizagem significativa', abstract: '', advisor: 'Aline Maria Santos Andrade', coadvisor: 'Ecivaldo de Souza Matos', }
   'Dia 2, Sala A, 9:30': { presenter: 'Beatriz Brito do Rego', presenter_short: '', title: 'Investigação sobre a concepção do design de sistemas computacionais interativos: um estudo sob a perspectiva da equidade', abstract: '', advisor: 'Ecivaldo de Souza Matos', coadvisor: '', }
   'Dia 2, Sala A, 9:45': { presenter: 'Valeria Argolo Rosa de Queiroz', presenter_short: '', title: 'DESIGN DE INTERAÇÃO SEMIOPARTICIPATIVO POR SUJEITOS IDOSOS: EMPATIA E ENGAJAMENTO NA PRODUÇÃO DE TECNOLOGIA', abstract: '', advisor: 'Ecivaldo de Souza Matos', coadvisor: '', }
   'Dia 2, Sala A, 10:00': { presenter: 'Diego Zabot', presenter_short: '', title: 'Game design como metodologia de ensino', abstract: '', advisor: 'Ecivaldo de Souza Matos', coadvisor: 'Lynn Rosalina Gama Alves ', }
   'Dia 2, Sala A, 10:15': { presenter: 'Mayka de Souza Lima', presenter_short: '', title: 'A CONCEPTUAL FRAMEWORK FOR THE DESIGN OF VIRTUAL LEARNING ENVIRONMENTS', abstract: '', advisor: 'Rita Suzana Pitangueira Maciel', coadvisor: '', }
   'Dia 2, Sala A, 10:30': { presenter: 'Bianca Leite Santana', presenter_short: '', title: 'Avaliação de Conceitos, Práticas e Perspectivas de Pensamento Computacional', abstract: '', advisor: 'Christina von Flach', coadvisor: 'Roberto Almeida Bittencourt', }
-  'Dia 2, Sala A, 10:45': { presenter: 'Jenifer Vieira Toledo Tavares', presenter_short: '', title: 'MODELO PARA AVALIAR A QUALIDADE EM ECOSSISTEMAS DE SOFTWARE DE CÓDIGO ABERTO', abstract: '', advisor: 'Christina von Flach', coadvisor: '', }
+  'Dia 2, Sala A, 10:45': { presenter: 'Jenifer Vieira Toledo Tavares', presenter_short: '', title: 'Um Modelo para avaliar a Qualidade em Ecossistemas de Software de Código Aberto', abstract: '', advisor: 'Christina von Flach', coadvisor: '', }
   'Dia 2, Sala B, 9:00': { presenter: 'Adriana Viriato Ribeiro', presenter_short: '', title: 'On Supporting Ambient Assisted Living Applications through Named Data Networking', abstract: '', advisor: 'Leobino Nascimento Sampaio', coadvisor: '', }
   'Dia 2, Sala B, 9:15': { presenter: 'Andre Luiz Romano Madureira', presenter_short: '', title: 'IoTP: On Supporting IoT Data Aggregation Through Programmable Data Planes', abstract: '', advisor: 'Leobino Nascimento Sampaio', coadvisor: '', }
   'Dia 2, Sala B, 9:30': { presenter: 'Francisco Renato Cavalcante Araújo', presenter_short: '', title: 'Uma arquitetura NDN aprimorada para melhoria de QoS', abstract: '', advisor: 'Leobino Nascimento Sampaio', coadvisor: '', }
