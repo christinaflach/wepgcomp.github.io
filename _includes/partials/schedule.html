@@ -44,7 +44,12 @@
 
 								{%- for slot in day.slots -%} 
 									<tr>
-										<td class="time">{{ slot }}</td>
+										<td class="time">
+											{%- assign firstchar = slot | slice: 0, 1 -%}
+											{%- if firstchar != 'S' -%}
+											{{ slot }}
+											{%- endif -%}
+										</td>
 										{%- assign break_key = day.name | append: ', ' | append: slot -%}
 										{%- assign break_ = page.program.breaks[break_key] -%}
 										{%- if break_ -%}

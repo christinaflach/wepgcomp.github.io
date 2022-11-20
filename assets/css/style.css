@@ -34,6 +34,10 @@
   color: #666;
 }
 
+.not-empty {
+  background-color: white;
+}
+
 .presenter-photo.small {
   border-radius: 50%;
   width: 40px;
