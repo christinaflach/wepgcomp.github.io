@@ -28,6 +28,7 @@
 					</ul>
 				</div>
 				<div class="schedule-contents bg-schedule">
+					<div class="legend">{{ page.schedule_legend }}</div>
 					<div class="tab-content" id="pills-tabContent">
 
 						{% for day in page.program.days %}
@@ -55,14 +56,18 @@
 												
 												{%- if talk and talk.placeholder -%}
 												{%- elsif talk -%}
-													<td class="not-empty" rowspan="{{ talk.span || 1 }}">
+													<td class="not-empty {{ talk.topic_abbr | default: ''}}" rowspan="{{ talk.span || 1 }}">
 														{%- capture talk_id -%}{{ day.name | append: '-' | append: room.name | append: '-' | append: slot | slugify }}{%- endcapture -%}
 														
 														<a class="two-column" href="#" style="color: black;" data-toggle="modal" data-target="#{{ talk_id }}">
 														{% if talk.presenter_photo and talk.presenter_photo != '' %}
 															<img src="photos/{{ talk.presenter_photo }}" alt="{{ talk.presenter }}" class="presenter-photo small">
 														{% endif %}
-															<span><b>{{ talk.presenter_short | default: talk.presenter }}</b> - {{ talk.title }}</span>
+															<span>
+																<b>{{ talk.presenter_short | default: talk.presenter }}</b> - 
+																{{ talk.title }}
+																{% if talk.remote %}<span class="badge badge-secondary">remoto</span>{% endif %}
+															</span>
 														</a>
 
 														<!-- Modal -->
@@ -83,6 +88,7 @@
 																	<div class="modal-body">
 																		<p><b>{{ talk.presenter }}</b></p>
 																		<p>Orientação: {{ talk.advisor }}{% if talk.coadvisor and talk.coadvisor != '' %}, {{ talk.coadvisor }} {% endif %}</p>
+																		<div class="badge badge-secondary">{{ talk.topic }}</div>
 																		<div>{{ talk.abstract }}</div>
 																		{% for tag in talk.tags %}
 																		<span class="badge badge-secondary">{{ tag }}</span>
@@ -112,6 +118,8 @@
 				
 			</div>
 		</div>
+
+		<p>{{ page.schedule_footer }}</p>
 	</div>
 </section>
 

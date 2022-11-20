@@ -12,12 +12,11 @@
   text-align: center;
 }
 .program-table td, .program-table th {
-  background-color: white;
   padding: 5px 10px 5px 10px;
   border-bottom: 4px solid white;
 }
-.program-table .not-empty {
-  background-color: #ccebd8;
+.program-table td {
+  /* background-color: #ccebd8; */
   border: 4px solid white;
 }
 .program-header th {
@@ -25,7 +24,12 @@
   color: white;
 }
 
+.program-table .all-rooms {
+  background-color: white;
+}
+
 .program-table .time {
+  background-color: white;
   text-align: right;
   color: #666;
 }
@@ -47,4 +51,46 @@
   flex-direction: row;
   gap: 10px;
   align-items: center;
+}
+
+.legend {
+  background-color: white;
+  padding: 20px;
+}
+.legend-item {
+  white-space: nowrap;
+}
+
+/* Topics */
+
+.square {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.cvis {
+  background-color: #dfbab1;
+}
+.es {
+  background-color: #d8d2e7;
+}
+.icot {
+  background-color: #f8e6d0;
+}
+.ihcedu {
+  background-color: #fdf2d0;
+}
+.rc {
+  background-color: #dce9d5;
+}
+.scmisc {
+  background-color: #d3dfe2;
+}
+.sd {
+  background-color: #f0b8a1;
+}
+.sibw {
+  background-color: #d3e1f1;
 }
