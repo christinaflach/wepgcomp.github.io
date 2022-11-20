@@ -15,14 +15,14 @@ about2: O objetivo do evento é apresentar as pesquisas que estão sendo realiza
 
 schedule_preamble: 'O evento ocorrerá em dois dias, com sessões paralelas. <h4>Programação preliminar, sujeita a alterações</h4>'
 schedule_legend: '
-<span class="legend-item"><span class="square program-table cvis"></span>Computação Visual</span>
-<span class="legend-item"><span class="square program-table es"></span>Engenharia de Software</span>
-<span class="legend-item"><span class="square program-table icot"></span>Inteligência Computacional e Otimização</span>
-<span class="legend-item"><span class="square program-table ihcedu"></span>Interação Humano-Computador e Informática e Educação</span>
-<span class="legend-item"><span class="square program-table rc"></span>Redes de Computadores</span>
-<span class="legend-item"><span class="square program-table scmisc"></span>Sistemas Computacionais</span>
-<span class="legend-item"><span class="square program-table sd"></span>Sistemas Distribuídos</span>
-<span class="legend-item"><span class="square program-table sibw"></span>Sistemas de Informação, Banco de Dados e Web</span>
+<span class="legend-item"><span class="square cvis"></span>Computação Visual</span>
+<span class="legend-item"><span class="square es"></span>Engenharia de Software</span>
+<span class="legend-item"><span class="square icot"></span>Inteligência Computacional e</span> <span class="legend-item">Otimização</span>
+<span class="legend-item"><span class="square ihcedu"></span>Interação Humano-Computador</span> <span class="legend-item">e Informática e Educação</span>
+<span class="legend-item"><span class="square rc"></span>Redes de Computadores</span>
+<span class="legend-item"><span class="square scmisc"></span>Sistemas Computacionais</span>
+<span class="legend-item"><span class="square sd"></span>Sistemas Distribuídos</span>
+<span class="legend-item"><span class="square sibw"></span>Sistemas de Informação,</span> <span class="legend-item">Banco de Dados e Web</span>
 '
 
 latitude: -13.000013
