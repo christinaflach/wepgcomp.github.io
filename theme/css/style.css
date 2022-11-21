@@ -1319,7 +1319,7 @@ select.form-control:not([size]):not([multiple]) {
 .schedule .schedule-contents {
   margin-top: 30px;
   margin-bottom: 30px;
-  padding: 30px;
+  padding: 0px;
 }
 .schedule .schedule-contents .schedule-item ul {
   margin-bottom: 0;
