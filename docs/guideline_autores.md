@@ -59,13 +59,14 @@ poderão ser colocadas no chat ou enviadas por email para o apresentador.
 
 1. Acesse a URL para upload do arquivo com slides em formato PDF:
 https://zenodo.org/deposit/new?c=wepgcomp-ic-ufba
+
+![Tela 1 - Depósito no Zenodo](./tela01.png)
+
 2. Após a seleção do arquivo, clique em “Start upload”.
+
 3. Marque o tipo do upload (“Presentation”).
+
 4. Informe data da submissão, título da apresentação, seu nome e resumo enviado ao PGCOMP (informações em inglês poderão dar maior visibilidade ao trabalho).
 
-[Tela de submissão do Zenodo - 1](./tela01.png).
-
-
-[Tela de submissão do Zenodo - 2](./tela02.png).
-
+![Tela 2 - Depósito no Zenodo](./tela02.png)
 
