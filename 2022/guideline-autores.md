@@ -10,36 +10,32 @@ kickoff:
 ## Informações 
 
 - A Programação Preliminar do WEPGCOMP 2022 pode ser encontrada na [página do evento](/2022).
-
-- O evento está organizado em **seis sessões temáticas** 
+- O evento está organizado em **oito sessões temáticas** 
 para apresentação de trabalhos das/os doutorandas/os matriculadas/os na atividade MATA33.
-A apresentação no WEPGCOMP é _opcional_ para as/os doutorandas/os que realizaram ou 
-realizarão o exame de qualificação em 2022. 
-A nota do componente MATA33 será a mesma atribuída ao componente MATA34 em 2022.
-
-- Cada trabalho apresentado em uma sessão contará com um grupo de, no mínimo, 
-três docentes responsáveis pela avaliação do trabalho, incluindo seu orientador.
-
+- A apresentação no WEPGCOMP é _opcional_ para as/os doutorandas/os que realizaram ou realizarão o exame de qualificação (MATA34) em 2022. Nesse caso, a nota do componente MATA33 será a mesma atribuída ao componente MATA34 em 2022.
+- Cada trabalho apresentado em uma sessão contará com um grupo de, no mínimo, três docentes responsáveis pela avaliação do trabalho, incluindo seu orientador.
 - O evento será **presencial**, com algumas apresentações na modalidade remota.  
-Todas as apresentações serão transmitidas no canal do evento no YouTube (https://www.youtube.com/@ComputacaoUFBA).
+Todas as apresentações serão transmitidas no canal do evento no YouTube (<https://www.youtube.com/@ComputacaoUFBA>).
 
 ## Preparação da apresentação
 
-** Template para slides **.
+### Template para slides
+
 O template para slides do WEPGCOMP está disponível 
 [aqui](https://docs.google.com/presentation/d/1-xGEu3hvVRVtdjE9yt9DTNlooDm4DqFimnPJMXETWQ8/edit?usp=sharing).
-Faça uma cópia, renomeie para “wepgcomp22-seunome-sobrenome”, 
+Faça uma cópia, renomeie para `wepgcomp22-seunome-sobrenome`, 
 e adicione os seus slides. 
 Os dois primeiros slides do template (“Título do trabalho” e “Ficha do trabalho”)  
 e o slide sobre “Estágio atual da pesquisa” são _obrigatórios_.
  
-** Depósito de slides no Zenodo**. 
+### Depósito de slides no Zenodo
+
 Independente da modalidade de participação (presencial ou remota), 
 os autores devem depositar no Zenodo, até **29/11/2022, 23:59h (BRT)**, 
 um arquivo (formato PDF) com a versão final dos slides da apresentação.
-O nome do arquivo deve ser “wepgcomp22-seunome-sobrenome.pdf”.
+O nome do arquivo deve ser `wepgcomp22-seunome-sobrenome.pdf`.
 
-- [Link para upload na comunidade do WEPGCOMP no Zenodo](https://zenodo.org/deposit/new?c=wepgcomp-ic-ufba).
+[Link para upload na comunidade do WEPGCOMP no Zenodo](https://zenodo.org/deposit/new?c=wepgcomp-ic-ufba).
 
 ## Apresentação de trabalhos
 
@@ -49,10 +45,6 @@ O nome do arquivo deve ser “wepgcomp22-seunome-sobrenome.pdf”.
 Perguntas adicionais via chat do YouTube serão encaminhadas para o apresentador.
 
 - Recomendamos que os apresentadores sigam boas práticas e respeitem o tempo de apresentação (algumas sugestões a seguir).
-
-**21/11/2022, Comissão Organizadora do WEPGCOMP 2022**.
-
----
 
 ## Boas Práticas de Apresentação
 
@@ -73,7 +65,7 @@ a interferência de sons externos durante a apresentação.
 
 - O controle de tempo da apresentação será rigoroso: **10 minutos para apresentação oral** 
 e **5 minutos para perguntas**. 
-    - Dica: prepare um roteiro para sua apresentação e treine algumas vezes..
+    - Dica: prepare um roteiro para sua apresentação e treine algumas vezes.
 
 ### Audiência em Geral
 
