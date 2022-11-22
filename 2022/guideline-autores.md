@@ -1,11 +1,15 @@
-# WEPGCOMP 2022
-01-02 de dezembro de 2022
-https://wepgcomp.github.io/2022/
-
-
+---
+layout: event-internal
+permalink: /2022/guidelines-autores
+logo: assets/images/logo-ic.png
+title: Orientações para Apresentadores
+kickoff:
+    year: 2022
+---
+ 
 ## Informações 
 
-- A Programação Preliminar do WEPGCOMP 2022 pode ser encontrada na [página do evento](https://wepgcomp.github.io/).
+- A Programação Preliminar do WEPGCOMP 2022 pode ser encontrada na [página do evento](/2022).
 
 - O evento está organizado em **seis sessões temáticas** 
 para apresentação de trabalhos das/os doutorandas/os matriculadas/os na atividade MATA33.
@@ -86,7 +90,8 @@ feitas presencial ou remotamente (chat do YouTube).
 1. Acesse a URL para upload do arquivo com slides em formato PDF:
 https://zenodo.org/deposit/new?c=wepgcomp-ic-ufba
 
-![Tela 1 - Escolha de arquivo com slides.](./tela01.png)
+<!-- ![Tela 1 - Escolha de arquivo com slides.](./tela01.png) -->
+<img style="width: 90%" src="images/tela01.png" alt="Tela 1 - Escolha de arquivo com slides.">
 
 2. Após a escolha do arquivo ("choose files"), clique em "Start upload".
 
@@ -94,5 +99,6 @@ https://zenodo.org/deposit/new?c=wepgcomp-ic-ufba
 
 4. Informe data da submissão, título da apresentação, seu nome e resumo enviado ao PGCOMP (informações em inglês poderão dar maior visibilidade ao trabalho).
 
-![Tela 2 - Dados da Apresentação (título, autores e descrição).](./tela02.png)
+<!-- ![Tela 2 - Dados da Apresentação (título, autores e descrição).](./tela02.png) -->
+<img style="width: 90%" src="images/tela02.png" alt="Tela 2 - Dados da Apresentação (título, autores e descrição).">
 
