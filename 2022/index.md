@@ -61,14 +61,14 @@ program:
     'Dia 1, 12:15': { title: 'Almoço' }
     'Dia 1, 15:30': { title: 'Coffee break' }
   talks:
-    'Dia 1, Sala A, S1/2': { presenter: 'Sessão 1' }
-    'Dia 1, Sala B, S1/2': { presenter: 'Sessão 2' }
-    'Dia 1, Sala A, S3/4': { presenter: 'Sessão 3' }
-    'Dia 1, Sala B, S3/4': { presenter: 'Sessão 4' }
-    'Dia 1, Sala A, S5/6': { presenter: 'Sessão 5' }
-    'Dia 1, Sala B, S5/6': { presenter: 'Sessão 6' }
-    'Dia 2, Sala A, S7/8': { presenter: 'Sessão 7' }
-    'Dia 2, Sala B, S7/8': { presenter: 'Sessão 8' }
+    'Dia 1, Sala A, S1/2': { presenter: 'Sessão 1', title: 'Apolinário, Luciano, Maurício, Daniela, Frederico' }
+    'Dia 1, Sala B, S1/2': { presenter: 'Sessão 2', title: 'Manoel, Ivan, Eduardo, Rita' }
+    'Dia 1, Sala A, S3/4': { presenter: 'Sessão 3', title: 'Laís, Cássio, Leobino, Gustavo' }
+    'Dia 1, Sala B, S3/4': { presenter: 'Sessão 4', title: 'Manoel, Frederico' }
+    'Dia 1, Sala A, S5/6': { presenter: 'Sessão 5', title: 'Vaninha, Fabíola' }
+    'Dia 1, Sala B, S5/6': { presenter: 'Sessão 6', title: 'Maycon, Marcos' }
+    'Dia 2, Sala A, S7/8': { presenter: 'Sessão 7', title: 'Ecivaldo, Rita, Christina, Marlo' }
+    'Dia 2, Sala B, S7/8': { presenter: 'Sessão 8', title: 'Leobino, Vinicius, George' }
 
     'Dia 1, Sala A, 10:30': { presenter: 'Rafaela Souza Alcântara', presenter_short: 'Rafaela Souza Alcântara', title: 'Redução de artefatos metálicos em tomografias computadorizadas para aplicações odontológicas', abstract: '', advisor: 'Antônio Lopes Apolinário Jr.', presenter_photo: '', topic_abbr: 'cvis', topic: 'CA: Computação Visual (CVIS)', }
     'Dia 1, Sala A, 10:45': { presenter: 'Paulo Roberto Silva Chagas Júnior', presenter_short: 'Paulo Roberto Silva Chagas Júnior', title: 'Uncertainty-aware membranous nephropathy classification: A semi-supervised approach to improve uncertainty representation', abstract: '', advisor: 'Luciano Oliveira Rebouças', coadvisor: 'Washington Luis Conrado dos Santos', presenter_photo: '', topic_abbr: 'cvis', topic: 'CA: Computação Visual (CVIS)', }
