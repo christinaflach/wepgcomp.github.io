@@ -8,7 +8,7 @@
 			<div class="col-12">
 				<div class="section-title">
 					<h3>Programação do Evento</h3>
-					<p>{{ page.schedule_preamble }}</p>
+					<p>{{ page.schedule_preamble | replace: 'N_TALKS', page.program.talks.size | replace: 'N_SESSIONS', page.program.sessions.size | replace: 'N_DAYS', page.program.days.size }}</p>
 				</div>
 			</div>
 		</div>
