@@ -995,7 +995,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 @media (max-width: 767px) {
   .banner .block h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 }
 @media (max-width: 400px) {
