@@ -57,8 +57,16 @@
 											{%- for room in day.rooms -%}
 												{%- assign talk_key = day.name | append: ', ' | append: room.name | append: ', ' | append: slot -%}
 												{%- assign talk = page.program.talks[talk_key] -%}
+												{%- assign session = page.program.sessions[talk_key] -%}
 												
-												{%- if talk and talk.placeholder -%}
+												{%- if session -%}
+													<span>
+														<span>
+															<b>{{ session.presenter_short | default: session.presenter }}</b> -
+															{{ session.title }}
+														</span>
+													</span>
+												{%- elsif talk and talk.placeholder -%}
 												{%- elsif talk -%}
 													<span class="{{ talk.topic_abbr | default: ''}}">
 														{%- capture talk_id -%}{{ day.name | append: '-' | append: room.name | append: '-' | append: slot | slugify }}{%- endcapture -%}
