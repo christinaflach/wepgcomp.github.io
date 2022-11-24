@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # Prints the names of all photos that
 # have a rectangular aspect ratio
 from pathlib import Path
