@@ -1,42 +1,33 @@
-.program-table {
-  table-layout: fixed;
+.schedule-grid {
+  display: grid;
+  grid-template-columns: 60px repeat(var(--rooms), 1fr);
+  gap: 4px;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
 }
-.program-table td.all-rooms {
+.schedule-grid > span {
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  align-items: center;
+}
+.schedule-grid > span.all-rooms {
+  background-color: gainsboro;
+  font-weight: bold;
+  justify-content: center;
+}
+.schedule-header {
+  display: contents;
+}
+.schedule-header > span:not(:first-child) {
+  background-color: #ff6600;
   text-align: center;
   font-weight: bold;
 }
-.program-table th {
-  text-align: center;
-}
-.program-table td, .program-table th {
-  padding: 5px 10px 5px 10px;
-  border-bottom: 4px solid white;
-}
-.program-table td {
-  /* background-color: #ccebd8; */
-  border: 4px solid white;
-}
-.program-header th {
-  background-color: #ff6600;
-  color: white;
-}
-
-.program-table .all-rooms {
-  background-color: white;
-}
-
-.program-table .time {
+.time {
   background-color: white;
   text-align: right;
   color: #666;
 }
 
-.not-empty {
-  background-color: white;
-}
 
 .presenter-photo.small {
   border-radius: 50%;

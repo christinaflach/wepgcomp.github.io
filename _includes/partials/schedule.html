@@ -34,26 +34,26 @@
 						{% for day in page.program.days %}
 						{% assign n_rooms = day.rooms | size -%}
 					  <div class="tab-pane fade show {% if forloop.index == 1 %}active{% endif %} schedule-item" id="{{ day.name | slugify }}">
-							<table class="program-table">
-								<tr class="program-header">
-									<th class="col-time" style="width: 60px; padding-right: 20px;">&nbsp;</th>
-									{%- for room in day.rooms -%}
-										<th class="col-room" style="width: calc((100% - 60px)/{{ n_rooms }})">{{ room.name }}</th>
-									{%- endfor -%}
-								</tr>
+
+							<div class="schedule-grid" style="--rooms: 2">
+								<div class="schedule-header">
+								<span class="col-time"></span>
+								{%- for room in day.rooms -%}
+									<span class="col-room">{{ room.name }}</span>
+								{%- endfor -%}
+								</div>
 
 								{%- for slot in day.slots -%} 
-									<tr>
-										<td class="time">
+										<span class="time">
 											{%- assign firstchar = slot | slice: 0, 1 -%}
 											{%- if firstchar != 'S' -%}
 											{{ slot }}
 											{%- endif -%}
-										</td>
+										</span>
 										{%- assign break_key = day.name | append: ', ' | append: slot -%}
 										{%- assign break_ = page.program.breaks[break_key] -%}
 										{%- if break_ -%}
-											<td colspan="{{ n_rooms }}" class="all-rooms">{{ break_.title }}</td>
+											<span style="grid-column: 2 / span {{ n_rooms }};" class="all-rooms">{{ break_.title }}</span>
 										{%- else -%}
 											{%- for room in day.rooms -%}
 												{%- assign talk_key = day.name | append: ', ' | append: room.name | append: ', ' | append: slot -%}
@@ -61,7 +61,7 @@
 												
 												{%- if talk and talk.placeholder -%}
 												{%- elsif talk -%}
-													<td class="not-empty {{ talk.topic_abbr | default: ''}}" rowspan="{{ talk.span || 1 }}">
+													<span class="{{ talk.topic_abbr | default: ''}}">
 														{%- capture talk_id -%}{{ day.name | append: '-' | append: room.name | append: '-' | append: slot | slugify }}{%- endcapture -%}
 														
 														<a class="two-column" href="#" style="color: black;" data-toggle="modal" data-target="#{{ talk_id }}">
@@ -106,15 +106,14 @@
 															</div>
 														</div>
 
-													</td>
+													</span>
 												{%- else -%}
-													<td>&nbsp;</td>
+													<span>&nbsp;</span>
 												{%- endif -%}
 											{%- endfor -%}
 										{%- endif -%}
-									</tr>
 								{%- endfor -%}
-							</table>
+								</div>
 					  </div>
 						{% endfor %}
 
