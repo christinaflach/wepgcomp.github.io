@@ -100,7 +100,11 @@
 																	<div class="modal-body">
 																		<p><b>{{ talk.presenter }}</b></p>
 																		<p>Orientação: {{ talk.advisor }}{% if talk.coadvisor and talk.coadvisor != '' %}, {{ talk.coadvisor }} {% endif %}</p>
-																		<div class="badge badge-secondary">{{ talk.topic }}</div>
+																		<p>Tópico: <span class="badge badge-secondary">{{ talk.topic }}</span>
+																		{%- if talk.doi %}
+																		Slides: <a href="https://doi.org/{{ talk.doi }}"><img src="https://zenodo.org/badge/DOI/{{ talk.doi }}.svg" alt="DOI"></a>
+																		{%- endif -%}
+																		</p>
 																		<div>{{ talk.abstract }}</div>
 																		{% for tag in talk.tags %}
 																		<span class="badge badge-secondary">{{ tag }}</span>
