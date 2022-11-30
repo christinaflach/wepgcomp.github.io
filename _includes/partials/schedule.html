@@ -104,6 +104,9 @@
 																		{%- if talk.doi %}
 																		Slides: <a href="https://doi.org/{{ talk.doi }}"><img src="https://zenodo.org/badge/DOI/{{ talk.doi }}.svg" alt="DOI"></a>
 																		{%- endif -%}
+																		{%- if talk.video %}
+																		Vídeo: <a href="{{ talk.video }}"><i class="fa fa-video-camera"></i></a>
+																		{%- endif -%}
 																		</p>
 																		<div>{{ talk.abstract }}</div>
 																		{% for tag in talk.tags %}
