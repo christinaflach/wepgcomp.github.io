@@ -1,5 +1,5 @@
 ---
-layout: event-internal
+layout: 2022/event
 permalink: /2022/guidelines-autores
 logo: assets/images/logo-ic.png
 title: Orientações para Apresentadores
