@@ -61,9 +61,9 @@ program:
     'Dia 1, 12:15': { title: 'Pausa para almoço' }
     'Dia 1, 15:30': { title: 'Intervalo' }
   sessions:
-    'Dia 1, Sala A, S1/2': { presenter: 'Sessão 1', title: 'Apolinário, Luciano, Maurício, Daniela, Frederico' }
-    'Dia 1, Sala B, S1/2': { presenter: 'Sessão 2', title: 'Manoel, Ivan, Eduardo, Rita' }
-    'Dia 1, Sala A, S3/4': { presenter: 'Sessão 3', title: 'Laís, Cássio, Leobino, Gustavo' }
+    'Dia 1, Sala A, S1/2': { presenter: 'Sessão 1', title: 'Apolinário (chair), Luciano, Maurício, Daniela, Frederico. Voluntário: Airton' }
+    'Dia 1, Sala B, S1/2': { presenter: 'Sessão 2', title: 'Ivan (chair), Manoel, Eduardo, Rita' }
+    'Dia 1, Sala A, S3/4': { presenter: 'Sessão 3', title: 'Laís, Cássio, Leobino, Gustavo. Voluntário: Airton' }
     'Dia 1, Sala B, S3/4': { presenter: 'Sessão 4', title: 'Manoel, Frederico, Felipe' }
     'Dia 1, Sala A, S5/6': { presenter: 'Sessão 5', title: 'Vaninha, Fabíola' }
     'Dia 1, Sala B, S5/6': { presenter: 'Sessão 6', title: 'Maycon, Marcos' }
