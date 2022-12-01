@@ -50,16 +50,17 @@ program:
     - name: Sala B
   - name: Dia 2
     date: 2 / 12 / 2022
-    slots: ['S7/8', '9:00', '9:15', '9:30', '9:45', '10:00', '10:15', '10:30', '10:45']
+    slots: ['S7/8', '9:00', '9:15', '9:30', '9:45', '10:00', '10:15', '10:30', '10:45', '11:00']
     roomless: {}
     rooms:
     - name: Sala A
     - name: Sala B
   breaks:
-    'Dia 1, 9:00': { title: 'Abertura' }
+    'Dia 1, 9:00': { title: 'Abertura (Sala A)' }
     'Dia 1, 10:00': { title: 'Intervalo' }
     'Dia 1, 12:15': { title: 'Pausa para almoço' }
     'Dia 1, 15:30': { title: 'Intervalo' }
+    'Dia 2, 11:00': { title: 'Encerramento' }
   sessions:
     'Dia 1, Sala A, S1/2': { presenter: 'Sessão 1', title: 'Apolinário (chair), Luciano, Maurício, Daniela, Frederico. Voluntário: Airton' }
     'Dia 1, Sala B, S1/2': { presenter: 'Sessão 2', title: 'Ivan (chair), Manoel, Eduardo, Rita' }
