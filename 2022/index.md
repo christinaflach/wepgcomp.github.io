@@ -64,10 +64,10 @@ program:
   sessions:
     'Dia 1, Sala A, S1/2': { presenter: 'Sessão 1', title: 'Apolinário (chair), Luciano, Daniela, Frederico. Voluntário: Airton.' }
     'Dia 1, Sala B, S1/2': { presenter: 'Sessão 2', title: 'Ivan (chair), Manoel, Eduardo, Rita' }
-    'Dia 1, Sala A, S3/4': { presenter: 'Sessão 3', title: 'Laís, Cássio, Leobino, Gustavo. Voluntário: Airton' }
-    'Dia 1, Sala B, S3/4': { presenter: 'Sessão 4', title: 'Manoel, Frederico, Felipe' }
-    'Dia 1, Sala A, S5/6': { presenter: 'Sessão 5', title: 'Vaninha, Fabíola' }
-    'Dia 1, Sala B, S5/6': { presenter: 'Sessão 6', title: 'Maycon, Marcos' }
+    'Dia 1, Sala A, S3/4': { presenter: 'Sessão 3', title: 'Laís (chair), Rodrigo (chair), Leobino. Voluntário: Airton.' }
+    'Dia 1, Sala B, S3/4': { presenter: 'Sessão 4', title: 'Manoel (chair), Frederico, Felipe. Voluntária: Gabriela.' }
+    'Dia 1, Sala A, S5/6': { presenter: 'Sessão 5', title: 'Vaninha (chair), Fabíola. Voluntário: Airton.' }
+    'Dia 1, Sala B, S5/6': { presenter: 'Sessão 6', title: 'Maycon, Marcos. Voluntária: Gabriela.' }
     'Dia 2, Sala A, S7/8': { presenter: 'Sessão 7', title: 'Ecivaldo, Rita, Christina, Marlo, Manoel. Voluntária: Bianca.' }
     'Dia 2, Sala B, S7/8': { presenter: 'Sessão 8', title: 'Leobino, Vinicius, George' }
   talks:
