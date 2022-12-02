@@ -76,7 +76,7 @@ program:
     - name: Sala A
     - name: Sala B
   breaks:
-    'Dia 1, 9:00': { title: 'Abertura (Sala A) [<a href="https://zenodo.org/record/7385493">slides</a>]' }
+    'Dia 1, 9:00': { title: '<a href="https://www.youtube.com/watch?v=anWIwZFHQQM"><i class="fa fa-video-camera"></i></a>&nbsp;Abertura (Sala A) [<a href="https://zenodo.org/record/7385493">slides</a>]' }
     'Dia 1, 10:00': { title: 'Intervalo' }
     'Dia 1, 12:15': { title: 'Pausa para almoço' }
     'Dia 1, 15:30': { title: 'Intervalo' }
