@@ -31,6 +31,25 @@ longitude: -38.507598
 building: Pavilhão de Aulas da<br>Federação II (PAF II), UFBA
 address: Tv. Barão de Jeremoabo - Ondina,<br>Salvador - BA, 40170-115
 
+staff:
+  'Comissão organizadora':
+    - Christina von Flach
+    - Robespierre Pita
+    - Rodrigo Rocha
+  'Apoio a TI e transmissão':
+    - Bianco Oliveira
+    - Hugo Chaves
+    - Jessé Ferreira
+  'Apoio às sessões':
+    - Airton Serra
+    - Bianca Santana
+    - Gabriela Lima
+    - Hugo Chaves
+  'Comunicação':
+    - Josemara Veloso
+  'Apoio administrativo':
+    - Kleber Batista
+
 program:
   days:
   - name: Dia 1
@@ -69,7 +88,7 @@ program:
     'Dia 1, Sala B, S3/4': { presenter: 'Sessão 4', title: 'Chair: Manoel. Voluntária: Gabriela.' }
     'Dia 1, Sala A, S5/6': { presenter: 'Sessão 5', title: 'Chair: Vaninha. Voluntário: Airton.' }
     'Dia 1, Sala B, S5/6': { presenter: 'Sessão 6', title: 'Chair: Robespierre. Voluntária: Gabriela.' }
-    'Dia 2, Sala A, S7/8': { presenter: 'Sessão 7', title: 'Chair: Christina. Voluntária: Bianca.' }
+    'Dia 2, Sala A, S7/8': { presenter: 'Sessão 7', title: 'Chair: Manoel, Christina. Voluntária: Bianca.' }
     'Dia 2, Sala B, S7/8': { presenter: 'Sessão 8', title: 'Chair: Leobino. Voluntário: Hugo' }
   talks:
     'Dia 1, Sala A, 10:30': { presenter: 'Rafaela Souza Alcântara', presenter_short: 'Rafaela Alcântara', title: 'Redução de Artefatos Metálicos em Tomografias Computadorizadas para Aplicações Odontológicas', abstract: 'O planejamento para cirurgia ortognática baseia-se em medidas anatômicas do paciente. Entre os exames utilizados estão as tomografias computadorizadas tradicionais (CT) e de feixe-cônico (CBCT) da região maxilofacial. Entretanto, o processo de aquisição desses dados promove o aparecimento de artefatos metálicos nos slices e no modelo 3D. Nesse contexto, técnicas de processamento de imagens são utilizadas para uma etapa inicial de remoção desses artefatos apenas nos slices afetados. Em seguida, o modelo tridimensional é gerado, onde serão aplicadas técnicas de processamento geométrico para redução das estruturas remanescentes.', advisor: 'Antônio Lopes Apolinário Jr.', presenter_photo: 'rafaela.alcantara.jpg', topic_abbr: 'cvis', topic: 'CA: Computação Visual (CVIS)', doi: '10.5281/zenodo.7378977', }
