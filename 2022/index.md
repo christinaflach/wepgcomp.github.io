@@ -83,11 +83,11 @@ program:
   sessions:
     'Dia 1, Sala A, S1/2': { name: Sessão 1, video: https://www.youtube.com/watch?v=8AmXAu_FOLo, chairs: [Apolinário], volunteers: [Airton] }
     'Dia 1, Sala B, S1/2': { name: Sessão 2, video: https://www.youtube.com/watch?v=gH8L38r6oNA, chairs: [Ivan] }
-    'Dia 1, Sala A, S3/4': { name: Sessão 3, chairs: [Laís, Rodrigo], volunteers: [Airton] }
-    'Dia 1, Sala B, S3/4': { name: Sessão 4, chairs: [Manoel], volunteers: [Gabriela] }
-    'Dia 1, Sala A, S5/6': { name: Sessão 5, chairs: [Vaninha], volunteers: [Airton] }
-    'Dia 1, Sala B, S5/6': { name: Sessão 6, chairs: [Robespierre], volunteers: [Gabriela] }
-    'Dia 2, Sala A, S7/8': { name: Sessão 7, chairs: [Christina, Marlo], volunteers: [Bianca] }
+    'Dia 1, Sala A, S3/4': { name: Sessão 3, video: https://www.youtube.com/watch?v=Arz_R71gwqU, chairs: [Laís, Rodrigo], volunteers: [Airton] }
+    'Dia 1, Sala B, S3/4': { name: Sessão 4, video: https://www.youtube.com/watch?v=QHozeoCNrvo, chairs: [Manoel], volunteers: [Gabriela] }
+    'Dia 1, Sala A, S5/6': { name: Sessão 5, video: https://www.youtube.com/watch?v=xyFqQMxnFfA, chairs: [Vaninha], volunteers: [Airton] }
+    'Dia 1, Sala B, S5/6': { name: Sessão 6, video: https://www.youtube.com/watch?v=3bXcyMNgI8I, chairs: [Robespierre], volunteers: [Gabriela] }
+    'Dia 2, Sala A, S7/8': { name: Sessão 7, video: https://www.youtube.com/watch?v=xg7S7ghP8P0, chairs: [Christina, Marlo], volunteers: [Bianca] }
     'Dia 2, Sala B, S7/8': { name: Sessão 8, chairs: [Leobino], volunteers: [Hugo] }
   talks:
     'Dia 1, Sala A, 10:30': { presenter: 'Rafaela Souza Alcântara', presenter_short: 'Rafaela Alcântara', title: 'Redução de Artefatos Metálicos em Tomografias Computadorizadas para Aplicações Odontológicas', abstract: 'O planejamento para cirurgia ortognática baseia-se em medidas anatômicas do paciente. Entre os exames utilizados estão as tomografias computadorizadas tradicionais (CT) e de feixe-cônico (CBCT) da região maxilofacial. Entretanto, o processo de aquisição desses dados promove o aparecimento de artefatos metálicos nos slices e no modelo 3D. Nesse contexto, técnicas de processamento de imagens são utilizadas para uma etapa inicial de remoção desses artefatos apenas nos slices afetados. Em seguida, o modelo tridimensional é gerado, onde serão aplicadas técnicas de processamento geométrico para redução das estruturas remanescentes.', advisor: 'Antônio Lopes Apolinário Jr.', presenter_photo: 'rafaela.alcantara.jpg', topic_abbr: 'cvis', topic: 'CA: Computação Visual (CVIS)', doi: '10.5281/zenodo.7378977', }
