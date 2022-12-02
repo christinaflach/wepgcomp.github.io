@@ -60,10 +60,19 @@
 												{%- assign session = page.program.sessions[talk_key] -%}
 												
 												{%- if session -%}
+													{%- assign n_chairs = session.chairs | size -%}
 													<span>
 														<span>
-															<b>{{ session.presenter_short | default: session.presenter }}</b> -
-															{{ session.title }}
+															{%- if session.video -%}
+															<a href="{{ session.video }}"><i class="fa fa-video-camera"></i></a>&nbsp;
+															{%- endif -%}
+															<b>{{ session.name }}</b>
+															{%- if session.chairs -%}
+															<b>. Chair{% if n_chairs > 1 %}s{% endif %}</b>: {{ session.chairs | join: ', ' }}
+															{%- endif -%}
+															{%- if session.volunteers -%}
+															<b>. Apoio</b>: {{ session.volunteers | join: ', ' }}
+															{% endif %}
 														</span>
 													</span>
 												{%- elsif talk and talk.placeholder -%}
