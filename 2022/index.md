@@ -2,7 +2,7 @@
 layout: 2022/event
 title: WEPGCOMP 2022
 main_page: true
-
+ 
 logo: assets/images/logo-ic.png
 event_initials: WEPGCOMP 2022
 event_name: Workshop de Estudantes de Pós-Graduação em Ciência da Computação do PGCOMP-UFBA
