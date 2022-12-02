@@ -13,8 +13,7 @@ kickoff: { year: 2022, month: 12, day: 1, hour: 8, minute: 30 }
 about1: O Workshop de Estudantes de Pós-Graduação em Ciência da Computação – WEPGCOMP – é um evento anual organizado pelo Programa de Pós Graduação em Ciência da Computação (PGCOMP) da Universidade Federal da Bahia (UFBA).
 about2: 'O objetivo do evento é apresentar as pesquisas que estão sendo realizadas pelos alunos de doutorado (a partir do segundo ano), bem como propiciar um ambiente de troca de conhecimento e congregação para toda a comunidade.  <p style="padding-top: 1em;"><a href="guidelines-autores" style="font-size: 26px;">Clique aqui para mais informações sobre o evento, incluindo orientações para apresentadores</a></p>'
 
-schedule_preamble: 'O evento conta com <b>N_TALKS apresentações</b>, divididas em <b>N_SESSIONS sessões</b> ao longo de <b>N_DAYS dias</b>.<br>Os <b>slides</b> estarão disponíveis na <a style="font-weight: bold; color: #ff6600;" href="https://zenodo.org/communities/wepgcomp-ic-ufba/">comunidade do PGCOMP no Zenodo</a>. <h5>O evento poderá ser acompanhado pelo canal <a href="https://www.youtube.com/@ComputacaoUFBA">@ComputacaoUFBA</a> no YouTube<br>
-Os apresentadores deverão acessar a <a href="https://conferenciaweb.rnp.br/webconf/wepgcomp1">Sala A</a> e a <a href="https://conferenciaweb.rnp.br/webconf/wepgcomp2">Sala B</a> do serviço Conferência Web.</h5>'
+schedule_preamble: 'O evento conta com <b>N_TALKS apresentações</b>, divididas em <b>N_SESSIONS sessões</b> ao longo de <b>N_DAYS dias</b>.<br>Os <b>slides</b> estarão disponíveis na <a style="font-weight: bold; color: #ff6600;" href="https://zenodo.org/communities/wepgcomp-ic-ufba/">comunidade do PGCOMP no Zenodo</a>.'
 schedule_legend: '
 <span class="legend-item"><span class="square cvis"></span>Computação Visual</span>
 <span class="legend-item"><span class="square es"></span>Engenharia de Software</span>
