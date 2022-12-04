@@ -13,15 +13,13 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mx-auto">
+        {%- for item in layout.menu -%}
         <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/{{ page.kickoff.year }}/#about">Sobre<span>/</span></a>
+          <a class="nav-link" href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}
+          {% if forloop.last == false %}<span>/</span>{%endif%}
+          </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/{{ page.kickoff.year }}/#schedule">Programação<span>/</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/{{ page.kickoff.year }}/guidelines-autores">Orientações</a>
-        </li>
+        {%- endfor -%}
       </ul>
     </div>
   </div>
