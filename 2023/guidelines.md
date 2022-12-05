@@ -1,18 +1,18 @@
 ---
-layout: 2022/event
-permalink: /2022/guidelines-autores
+layout: event-internal
+permalink: /2023/guidelines
 logo: assets/images/logo-ic.png
 title: Orientações
 kickoff:
-    year: 2022
+    year: 2023
 ---
  
 ### Informações 
 
-- A Programação Preliminar do WEPGCOMP 2022 pode ser encontrada na [página do evento](/2022).
+- A Programação Preliminar do WEPGCOMP 2023 pode ser encontrada na [página do evento](/2023).
 - O evento está organizado em **oito sessões temáticas** 
 para apresentação de trabalhos das/os doutorandas/os matriculadas/os no componente curricular MATA33.
-- A apresentação no WEPGCOMP é _opcional_ para as/os doutorandas/os que realizaram ou realizarão o exame de qualificação (MATA34) em 2022. Nesse caso, a nota do componente MATA33 será a mesma atribuída ao componente MATA34 em 2022.
+- A apresentação no WEPGCOMP é _opcional_ para as/os doutorandas/os que realizaram ou realizarão o exame de qualificação (MATA34) em 2023. Nesse caso, a nota do componente MATA33 será a mesma atribuída ao componente MATA34 em 2023.
 - Cada trabalho apresentado em uma sessão contará com um grupo de, no mínimo, três docentes responsáveis pela avaliação do trabalho, incluindo seu orientador.
 - O evento será realizado na modalidade **remota**.
 Todas as apresentações serão transmitidas no canal do evento no YouTube (<https://www.youtube.com/@ComputacaoUFBA>).
@@ -31,7 +31,7 @@ e o slide sobre “Estágio atual da pesquisa” são _obrigatórios_.
 #### Depósito de slides no Zenodo
 
 Independente da modalidade de participação (presencial ou remota), 
-os autores devem depositar no Zenodo, até **29/11/2022, 23:59h (BRT)**, 
+os autores devem depositar no Zenodo, até **29/11/2023, 23:59h (BRT)**, 
 um arquivo (formato PDF) com a versão final dos slides da apresentação.
 O nome do arquivo deve ser `wepgcomp22-seunome-sobrenome.pdf`.
 
@@ -39,7 +39,7 @@ O nome do arquivo deve ser `wepgcomp22-seunome-sobrenome.pdf`.
 
 ### Apresentação de trabalhos
 
-- Os organizadores do WEPGCOMP 2022 farão a coleta dos slides depositados no Zenodo no dia 30/11 e os disponibilizarão para os coordenadores de sessão.
+- Os organizadores do WEPGCOMP 2023 farão a coleta dos slides depositados no Zenodo no dia 30/11 e os disponibilizarão para os coordenadores de sessão.
 
 -  Cada apresentação não deve ultrapassar os 10 minutos de duração. Na sequência da apresentação, os avaliadores terão 5 minutos para perguntas e sugestões.
 Perguntas adicionais via chat do YouTube serão encaminhadas para o apresentador.
@@ -48,7 +48,7 @@ Perguntas adicionais via chat do YouTube serão encaminhadas para o apresentador
 
 #### Boas Práticas para o(a) Apresentador(a)
 
-- O WEPGCOMP 2022 será 100% remoto.
+- O WEPGCOMP 2023 será 100% remoto.
 
 - Testar a câmera e o microfone de seu computador ou smartphone, e sua conexão com a Internet, 
 ao menos **30 minutos antes do início da sua sessão**. 
