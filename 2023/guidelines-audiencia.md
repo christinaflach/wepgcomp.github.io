@@ -1,5 +1,5 @@
 --
-layout: event-internal
+layout: 2023/event
 permalink: /2023/guidelines-audiencia
 logo: assets/images/logo-ic.png
 title: Orientações para a Audiência
@@ -25,6 +25,4 @@ Todas as apresentações serão transmitidas no canal do evento no YouTube (<htt
 o coordenador da sessão fará a moderação das perguntas da audiência.
 As perguntas serão enviadas por email aos apresentadores.
 
-
-## Slides no Zenodo
 
