@@ -13,7 +13,7 @@ kickoff:
 
 O template para slides do WEPGCOMP está disponível 
 [aqui](https://docs.google.com/presentation/d/1-xGEu3hvVRVtdjE9yt9DTNlooDm4DqFimnPJMXETWQ8/edit?usp=sharing).
-Faça uma cópia, renomeie para `wepgcomp22-seunome-sobrenome`, 
+Faça uma cópia, renomeie para `wepgcomp23-seunome-sobrenome`, 
 e adicione os seus slides. 
 Os dois primeiros slides do template (“Título do trabalho” e “Ficha do trabalho”)  
 e o slide sobre “Estágio atual da pesquisa” são _obrigatórios_.
@@ -21,15 +21,15 @@ e o slide sobre “Estágio atual da pesquisa” são _obrigatórios_.
 #### Depósito de slides no Zenodo
 
 Independente da modalidade de participação (presencial ou remota), 
-os autores devem depositar no Zenodo, até **29/11/2023, 23:59h (BRT)**, 
+os autores devem depositar no Zenodo, até **20/11/2023, 23:59h (BRT)**, 
 um arquivo (formato PDF) com a versão final dos slides da apresentação.
-O nome do arquivo deve ser `wepgcomp22-seunome-sobrenome.pdf`.
+O nome do arquivo deve ser `wepgcomp23-seunome-sobrenome.pdf`.
 
 [Link para upload na comunidade do WEPGCOMP no Zenodo](https://zenodo.org/deposit/new?c=wepgcomp-ic-ufba).
 
 ### Apresentação de trabalhos
 
-- Os organizadores do WEPGCOMP 2023 farão a coleta dos slides depositados no Zenodo no dia 30/11 e os disponibilizarão para os coordenadores de sessão.
+- Os organizadores do WEPGCOMP 2023 farão a coleta dos slides depositados no Zenodo no dia 21/11 e os disponibilizarão para os coordenadores de sessão.
 
 -  Cada apresentação não deve ultrapassar os 10 minutos de duração. Na sequência da apresentação, os avaliadores terão 5 minutos para perguntas e sugestões.
 Perguntas adicionais via chat do YouTube serão encaminhadas para o apresentador.
@@ -38,23 +38,16 @@ Perguntas adicionais via chat do YouTube serão encaminhadas para o apresentador
 
 #### Boas Práticas para o(a) Apresentador(a)
 
-- O WEPGCOMP 2023 será 100% remoto.
+- O WEPGCOMP 2023 será presencial e, em casos excepcionais, apresentações poderão ser remotas.
 
-- Testar a câmera e o microfone de seu computador ou smartphone, e sua conexão com a Internet, 
-ao menos **30 minutos antes do início da sua sessão**. 
-Em caso de problemas, entrar em contato com a coordenação da sessão 
-(a ser divulgada na página do evento).
-
-- Entrar em contato com o/a coordenadora da sua sessão 
-**15 minutos antes do início da sessão**. 
-Haverá um teste rápido de vídeo e som com a organização do evento.
-
-- Recomenda-se o uso de _headset_ para diminuir 
-a interferência de sons externos durante a apresentação. 
-
+- Entrar em contato com o/a coordenadora da sua sessão ao menos **15 minutos antes do início da sessão**. 
+  
 - O controle de tempo da apresentação será rigoroso: **10 minutos para apresentação oral** e **5 minutos para perguntas**. 
     - Dica: prepare um roteiro para sua apresentação e treine algumas vezes.
 
+- No caso de apresentação remota, testar a câmera e o microfone de seu computador ou smartphone, e sua conexão com a Internet, 
+ao menos **30 minutos antes do início da sua sessão**. Em caso de problemas, entrar em contato com a coordenação da sessão 
+(a ser divulgada na página do evento). Recomenda-se o uso de _headset_ para diminuir a interferência de sons externos durante a apresentação. 
 
 ---
 
