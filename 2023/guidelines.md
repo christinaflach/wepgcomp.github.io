@@ -1,5 +1,5 @@
 ---
-layout: event-internal
+layout: 2023/event
 permalink: /2023/guidelines
 logo: assets/images/logo-ic.png
 title: Orientações
