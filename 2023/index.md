@@ -10,8 +10,12 @@ date_and_place: 'novembro de 2023, no canal <b><a style="color: orange;" href="h
 banner_image: assets/images/ssa03_Elevador.JPG
 kickoff: { year: 2023, month: 11, day: 23, hour: 8, minute: 30 }
 
-about1: O Workshop de Estudantes de Pós-Graduação em Ciência da Computação – WEPGCOMP – é um evento anual organizado pelo Programa de Pós Graduação em Ciência da Computação (PGCOMP) da Universidade Federal da Bahia (UFBA).
-about2: 'O objetivo do evento é apresentar as pesquisas que estão sendo realizadas pelos alunos de doutorado (a partir do segundo ano), bem como propiciar um ambiente de troca de conhecimento e congregação para toda a comunidade.'
+about1: O Workshop de Estudantes de Pós-Graduação em Ciência da Computação 
+– WEPGCOMP – é um evento anual organizado pelo Programa de Pós Graduação 
+em Ciência da Computação (PGCOMP) da Universidade Federal da Bahia (UFBA).
+about2: 'O objetivo do evento é apresentar as pesquisas em andamento realizadas 
+pelos alunos de doutorado (a partir do segundo ano), bem como propiciar 
+um ambiente de troca de conhecimento e congregação para toda a comunidade.'
 
 schedule_preamble: 'O evento conta com <b>N_TALKS apresentações</b>, divididas em <b>N_SESSIONS sessões</b> ao longo de <b>N_DAYS dias</b>.<br>Os <b>slides</b> estarão disponíveis na <a style="font-weight: bold; color: #ff6600;" href="https://zenodo.org/communities/wepgcomp-ic-ufba/">comunidade do PGCOMP no Zenodo</a>.'
 schedule_legend: '
@@ -32,8 +36,8 @@ address: Tv. Barão de Jeremoabo - Ondina,<br>Salvador - BA, 40170-115
 
 staff:
   'Comissão organizadora':
-    - Christina von Flach
     - Robespierre Pita
+    - Christina von Flach
     - Rodrigo Rocha
   'Apoio a TI e transmissão':
     - Bianco Oliveira
