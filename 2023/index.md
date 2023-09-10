@@ -6,7 +6,7 @@ main_page: true
 logo: assets/images/logo-ic.png
 event_initials: WEPGCOMP 2023
 event_name: Workshop de Estudantes de Pós-Graduação em Ciência da Computação do PGCOMP-UFBA
-date_and_place: 'novembro de 2023, no canal <b><a style="color: orange;" href="https://www.youtube.com/@ComputacaoUFBA">@ComputacaoUFBA</a></b> do YouTube (<b>evento online</b>)'
+date_and_place: 'novembro de 2023'
 banner_image: assets/images/ssa03_Elevador.JPG
 kickoff: { year: 2023, month: 11, day: 23, hour: 8, minute: 30 }
 
