@@ -20,8 +20,7 @@ e o slide sobre “Estágio atual da pesquisa” são _obrigatórios_.
  
 #### Depósito de slides no Zenodo
 
-Independente da modalidade de participação (presencial ou remota), 
-os autores devem depositar no Zenodo, até **20/11/2023, 23:59h (BRT)**, 
+Os autores devem depositar no Zenodo, até **20/11/2023, 23:59h (BRT)**, 
 um arquivo (formato PDF) com a versão final dos slides da apresentação.
 O nome do arquivo deve ser `wepgcomp23-seunome-sobrenome.pdf`.
 
@@ -33,8 +32,6 @@ O nome do arquivo deve ser `wepgcomp23-seunome-sobrenome.pdf`.
 
 -  Cada apresentação não deve ultrapassar os 10 minutos de duração. Na sequência da apresentação, os avaliadores terão 5 minutos para perguntas e sugestões.
 Perguntas adicionais via chat do YouTube serão encaminhadas para o apresentador.
-
-- Recomendamos que os apresentadores sigam boas práticas e respeitem o tempo de apresentação (algumas sugestões a seguir).
 
 #### Boas Práticas para o(a) Apresentador(a)
 
