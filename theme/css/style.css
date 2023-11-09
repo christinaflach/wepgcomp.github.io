@@ -1126,13 +1126,13 @@ select.form-control:not([size]):not([multiple]) {
 }
 .about .content-block .description-one p {
   color: #222222;
-  font-size: 1.0625rem;
+  font-size: 1.3em;
 }
 .about .content-block .description-two {
   margin-bottom: 30px;
 }
 .about .content-block .description-two p {
-  font-size: 0.9375em;
+  font-size: 1.0em;
 }
 @media (max-width: 575px) {
   .about .content-block ul.list-inline .list-inline-item {
