@@ -1,8 +1,8 @@
---
+---
 layout: 2023/event
 permalink: /2023/guidelines-audiencia
 logo: assets/images/logo-ic.png
-title: Orientações para a Audiência
+title: Orientações para Apresentadores
 kickoff:
     year: 2023
 ---
