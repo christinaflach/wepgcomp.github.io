@@ -1132,7 +1132,7 @@ select.form-control:not([size]):not([multiple]) {
   margin-bottom: 20px;
 }
 .about .content-block .description-two p {
-  font-size: 12px;
+  font-size: 16px;
 }
 @media (max-width: 575px) {
   .about .content-block ul.list-inline .list-inline-item {
