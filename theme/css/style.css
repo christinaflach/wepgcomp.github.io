@@ -1125,8 +1125,8 @@ select.form-control:not([size]):not([multiple]) {
   margin-bottom: 20px;
 }
 .about .content-block .description-one p {
-  color: #222222;
-  font-size: 1.3em;
+  color:#1a0b25;
+  font-size: 1.0rem;
 }
 .about .content-block .description-two {
   margin-bottom: 30px;
