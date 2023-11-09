@@ -6,7 +6,7 @@ main_page: true
 logo: assets/images/logo-ic.png
 event_initials: WEPGCOMP 2023
 event_name: Workshop de Estudantes de Pós-Graduação em Ciência da Computação do PGCOMP-UFBA
-date_and_place: '23 e 24 de novembro de 2023 (a confirmar)'
+date_and_place: '23 e 24 de novembro de 2023'
 banner_image: assets/images/ssa03_Elevador.JPG
 kickoff: { year: 2023, month: 11, day: 23, hour: 8, minute: 30 }
 
@@ -42,9 +42,10 @@ staff:
   'Apoio às sessões':
     - Hugo Chaves
   'Comunicação':
-    - A definir
+    - Ivan do Carmo Machado
   'Apoio administrativo':
     - Kleber Batista
+    - Silvana Barros
 
 ---
 

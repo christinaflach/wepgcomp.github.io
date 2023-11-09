@@ -19,4 +19,5 @@ Para as apresentações realizadas na(s) sessão(ões) em que participa como ava
    + Espera-se que o doutorando em estágio de pré-qualificação tenha concluído as disciplinas e mostre que o tema da pesquisa está definido, com revisão da literatura em andamento (no mínimo).
 - Se possível, olhar a apresentação do WEPGCOMP do ano anterior para avaliar o progresso do trabalho de pesquisa do discente.
 
+- Preencher o formulário de avaliação do trabalho (disponível em link a ser divulgado).
 
