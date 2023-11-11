@@ -7,11 +7,11 @@ Roteiro para organização do Workshop de Estudantes do PGCOMP.
 
 ### Website
 
-+ Website do WEPGCOMP: https://wepgcomp.github.io/2022/
++ Website do WEPGCOMP 2023: https://wepgcomp.github.io/2023/
 
 ### Zenodo
 
-+ Comunidade do WEPGCOMP no Zenodo: https://zenodo.org/communities/wepgcomp-ic-ufba/
++ Comunidade do WEPGCOMP 2023 no Zenodo: https://zenodo.org/communities/wepgcomp-2023/
 
 ### Voluntários
 
@@ -41,7 +41,6 @@ Roteiro para organização do Workshop de Estudantes do PGCOMP.
 ## Pós-workshop
 
 ### Avaliação do workshop
-
 
 ## Recomendações Gerais
 

@@ -24,8 +24,7 @@ Os autores devem depositar no Zenodo, até **20/11/2023, 23:59h (BRT)**,
 um arquivo (formato PDF) com a versão final dos slides da apresentação.
 O nome do arquivo deve ser `wepgcomp23-nome-sobrenome.pdf`.
 
-[Link para upload na comunidade do WEPGCOMP no Zenodo](https://zenodo.org/deposit/new?c=wepgcomp-ic-ufba).
-
+[Link para upload na comunidade do WEPGCOMP no Zenodo](https://zenodo.org/deposit/new?c=wepgcomp2023).
 
 - Os organizadores do WEPGCOMP 2023 farão a coleta dos slides depositados no Zenodo no dia 21/11 e os disponibilizarão para os coordenadores de sessão.
 
@@ -54,7 +53,7 @@ ao menos **30 minutos antes do início da sua sessão**. Em caso de problemas, e
 ## Depósito no Zenodo
 
 1. Acesse a URL para upload do arquivo com slides em formato PDF:
-https://zenodo.org/deposit/new?c=wepgcomp-ic-ufba
+https://zenodo.org/deposit/new?c=wepgcomp2023
 
 <!-- ![Tela 1 - Escolha de arquivo com slides.](./tela01.png) -->
 <img style="width: 90%" src="images/tela01.png" alt="Tela 1 - Escolha de arquivo com slides.">
@@ -68,5 +67,5 @@ https://zenodo.org/deposit/new?c=wepgcomp-ic-ufba
 <!-- ![Tela 2 - Dados da Apresentação (título, autores e descrição).](./tela02.png) -->
 <img style="width: 90%" src="images/tela02.png" alt="Tela 2 - Dados da Apresentação (título, autores e descrição).">
 
-A comissão organizadora é responsável pela curadoria dos slides depositado no Zenodo. Em caso de problemas, um novo depósito de slides no Zenodo será solicitado.
+A comissão organizadora é responsável pela curadoria dos slides depositados no Zenodo. Em caso de problemas, um novo depósito de slides no Zenodo será solicitado.
 
