@@ -34,7 +34,7 @@ os autores devem depositar no Zenodo, até **20/11/2023, 23:59h (BRT)**,
 um arquivo (formato PDF) com a versão final dos slides da apresentação.
 O nome do arquivo deve ser `wepgcomp23-seunome-sobrenome.pdf`.
 
-[Link para upload na comunidade do WEPGCOMP no Zenodo](https://zenodo.org/deposit/new?c=wepgcomp-ic-ufba).
+[Link para upload na comunidade do WEPGCOMP no Zenodo](https://zenodo.org/deposit/new?c=wepgcomp2023).
 
 ### Apresentação de trabalhos
 
@@ -76,7 +76,7 @@ Se preferir, coloque suas perguntas no chat do YouTube.
 ## Depósito no Zenodo
 
 1. Acesse a URL para upload do arquivo com slides em formato PDF:
-https://zenodo.org/deposit/new?c=wepgcomp-ic-ufba
+https://zenodo.org/deposit/new?c=wepgcomp2023
 
 <!-- ![Tela 1 - Escolha de arquivo com slides.](./tela01.png) -->
 <img style="width: 90%" src="images/tela01.png" alt="Tela 1 - Escolha de arquivo com slides.">

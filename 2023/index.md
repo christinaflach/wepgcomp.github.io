@@ -6,14 +6,14 @@ main_page: true
 logo: assets/images/logo-ic.png
 event_initials: WEPGCOMP 2023
 event_name: Workshop de Estudantes de Pós-Graduação em Ciência da Computação do PGCOMP-UFBA
-date_and_place: '23 e 24 de novembro de 2023 - <b><a style="color: orange;" href="http://www.igeo.ufba.br">Auditório do Instituto de Geociências</a></b> da UFBA'
+date_and_place: '23 e 24 de novembro de 2023 </br><a style="color: #ff6600;" href="http://www.igeo.ufba.br">Auditório do Instituto de Geociências - UFBA</a>'
 banner_image: assets/images/ssa03_Elevador.JPG
 kickoff: { year: 2023, month: 11, day: 23, hour: 8, minute: 30 }
 
 about1: O Workshop de Estudantes de Pós-Graduação em Ciência da Computação – WEPGCOMP – é um evento anual organizado pelo Programa de Pós Graduação em Ciência da Computação (PGCOMP) da Universidade Federal da Bahia (UFBA).
 about2: 'O objetivo do evento é apresentar as pesquisas em andamento realizadas pelos alunos de doutorado (a partir do segundo ano), bem como propiciar um ambiente de troca de conhecimento e congregação para toda a comunidade.'
 
-schedule_preamble: 'O evento conta com <b>N_TALKS apresentações</b>, divididas em <b>N_SESSIONS sessões</b> ao longo de <b>N_DAYS dias</b>.<br>Os <b>slides</b> estarão disponíveis na <a style="font-weight: bold; color: #ff6600;" href="https://zenodo.org/communities/wepgcomp-ic-ufba/">comunidade do PGCOMP no Zenodo</a>.'
+schedule_preamble: 'O evento conta com <b>N_TALKS apresentações</b>, divididas em <b>N_SESSIONS sessões</b> ao longo de <b>N_DAYS dias</b>.<br>Os <b>slides</b> estarão disponíveis na <a style="font-weight: bold; color: #ff6600;" href="https://zenodo.org/communities/wepgcomp2023/">comunidade do PGCOMP no Zenodo</a>.'
 schedule_legend: '
 <span class="legend-item"><span class="square cvis"></span>Computação Visual</span>
 <span class="legend-item"><span class="square es"></span>Engenharia de Software</span>
