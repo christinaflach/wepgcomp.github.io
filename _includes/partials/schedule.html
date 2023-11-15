@@ -87,7 +87,7 @@
 															<span>
 																<b>{{ talk.presenter_short | default: talk.presenter }}</b> - 
 																{{ talk.title }}
-																{% if talk.remote %}<span class="badge badge-secondary">remoto</span>{% endif %}
+																{% if talk.remote and talk.remote != '' %}<span class="badge badge-secondary">remoto</span>{% endif %}
 															</span>
 														</a>
 
