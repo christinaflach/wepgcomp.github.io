@@ -75,21 +75,22 @@ program:
       '12:10', # lunch break
       'S11/12', '14:00', '14:20', '14:40', # talks
       '15:00', # coffee break
-      'S13/14', '15:30', '15:50', '16:10', '16:30', '16:50' # talks
+      'S13/14', '15:30', '15:50', '16:10', '16:30'#, '16:50' # talks
     ]
     roomless: {}
     rooms:
     - name: Sala A
     - name: Sala B
   breaks:
-    'Dia 1, 8:20': { title: 'Abertura (Sala A)' }
+    'Dia 1, 8:20': { title: 'Abertura (Sala A) - Apresentação da Prof. Daniela Barreiro Claro, coordenadora do PGCOMP-UFBA ' }
     'Dia 1, 10:00': { title: 'Coffee break' }
     'Dia 1, 12:10': { title: 'Pausa para almoço' }
-    'Dia 1, 14:00': { title: 'Palestra - prof. Gustavo Bittencourt Figueiredo' }
+    'Dia 1, 14:00': { title: 'Palestra - Prof. Gustavo Bittencourt Figueiredo (DCC/IC/UFBA)' }
     'Dia 1, 15:00': { title: 'Coffee break' }
     'Dia 2, 10:00': { title: 'Coffee break' }
     'Dia 2, 12:10': { title: 'Pausa para almoço' }
     'Dia 2, 15:00': { title: 'Coffee break' }
+    'Dia 2, 16:30': { title: 'Encerramento, premiação e coquetel' }
   sessions:
     'Dia 1, Sala A, S1/2': { name: 'Sessão 1' }
     'Dia 1, Sala B, S1/2': { name: 'Sessão 2' }
