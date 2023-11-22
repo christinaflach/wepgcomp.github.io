@@ -92,20 +92,20 @@ program:
     'Dia 2, 15:00': { title: 'Coffee break' }
     'Dia 2, 16:30': { title: 'Encerramento, premiação e coquetel' }
   sessions:
-    'Dia 1, Sala A, S1/2': { name: 'Sessão 1' }
-    'Dia 1, Sala B, S1/2': { name: 'Sessão 2' }
-    'Dia 1, Sala A, S3/4': { name: 'Sessão 3' } #, video: 'https://www.youtube.com/watch?v=8AmXAu_FOLo', chairs: [Apolinário], volunteers: [Airton] }
-    'Dia 1, Sala B, S3/4': { name: 'Sessão 4' }
-    'Dia 1, Sala A, S5/6': { name: 'Sessão 5' }
-    'Dia 1, Sala B, S5/6': { name: 'Sessão 6' }
-    'Dia 2, Sala A, S7/8': { name: 'Sessão 7' }
-    'Dia 2, Sala B, S7/8': { name: 'Sessão 8' }
-    'Dia 2, Sala A, S9/10': { name: 'Sessão 9' }
-    'Dia 2, Sala B, S9/10': { name: 'Sessão 10' }
-    'Dia 2, Sala A, S11/12': { name: 'Sessão 11' }
-    'Dia 2, Sala B, S11/12': { name: 'Sessão 12' }
-    'Dia 2, Sala A, S13/14': { name: 'Sessão 13' }
-    'Dia 2, Sala B, S13/14': { name: 'Sessão 14' }
+    'Dia 1, Sala A, S1/2': { name: 'Sessão 1', volunteers: [Jessé, Luca, João Roberto] }
+    'Dia 1, Sala B, S1/2': { name: 'Sessão 2', volunteers: [Luís André, Diego, Alana] }
+    'Dia 1, Sala A, S3/4': { name: 'Sessão 3', volunteers: [Jessé, Luca, João Roberto] } #, video: 'https://www.youtube.com/watch?v=8AmXAu_FOLo', chairs: [Apolinário], volunteers: [Airton] }
+    'Dia 1, Sala B, S3/4': { name: 'Sessão 4', volunteers: [Luís André, Diego, Alana] }
+    'Dia 1, Sala A, S5/6': { name: 'Sessão 5', volunteers: [Hugo, Alexsandro, Rebeca] }
+    'Dia 1, Sala B, S5/6': { name: 'Sessão 6', volunteers: [Bruno, André Luiz, Matheus R.] }
+    'Dia 2, Sala A, S7/8': { name: 'Sessão 7', volunteers: [Luís André, Isaque, Rodrigo M.] }
+    'Dia 2, Sala B, S7/8': { name: 'Sessão 8', volunteers: [Gabriel, Monique] }
+    'Dia 2, Sala A, S9/10': { name: 'Sessão 9', volunteers: [Luís André, Isaque, Rodrigo M.] }
+    'Dia 2, Sala B, S9/10': { name: 'Sessão 10', volunteers: [Gabriel, Monique] }
+    'Dia 2, Sala A, S11/12': { name: 'Sessão 11', volunteers: [Bruno, Rebeca, João Victor] }
+    'Dia 2, Sala B, S11/12': { name: 'Sessão 12', volunteers: [Wesley, Izak] }
+    'Dia 2, Sala A, S13/14': { name: 'Sessão 13', volunteers: [Bruno, João Victor] }
+    'Dia 2, Sala B, S13/14': { name: 'Sessão 14', volunteers: [Izak, Matheus R.] }
   talks:
 
     'Dia 1, Sala A, 9:20': { presenter: 'Lucas Amparo Barbosa', presenter_short: 'Lucas Amparo', title: 'Underwater Image Rendering Survey', abstract: 'The underwater world has gained more attention in research in the last few years. This is related to ocean exploration in many industries. Images are a helpful data source for many tasks in underwater exploration but face several issues related to light behavior in this environment. Given the complexity of capturing data from the sea and the large variability of components in the scene (depth, suspended particles, turbidity, etc.), rendering underwater scenes can provide relevant data to improve image processing algorithms and train computer vision tasks. The main goal of this paper is to summarize works with underwater imagery approaches, discussing their techniques, contributions, and potential improvements.', advisor: 'Antonio Lopes Apolinario Junior', coadvisor: '', presenter_photo: 'lucas.amparo.jpg', topic_abbr: 'cvis', topic: '', doi: '', video: '', instagram: '@lucasamparo', twitter: '@sep_lucas', linkedin: 'https://www.linkedin.com/in/lucas-amparo-barbosa-782a8256/', }
