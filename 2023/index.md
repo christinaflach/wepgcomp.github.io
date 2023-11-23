@@ -98,14 +98,14 @@ program:
     'Dia 1, Sala B, S3/4': { name: 'Sessão 4', volunteers: [Luís André, Diego, Alana] }
     'Dia 1, Sala A, S5/6': { name: 'Sessão 5', volunteers: [Hugo, Alexsandro, Rebeca] }
     'Dia 1, Sala B, S5/6': { name: 'Sessão 6', volunteers: [Bruno, André Luiz, Matheus R.] }
-    'Dia 2, Sala A, S7/8': { name: 'Sessão 7', volunteers: [Luís André, Izak, Rodrigo M.] }
-    'Dia 2, Sala B, S7/8': { name: 'Sessão 8', volunteers: [Gabriel, Monique] }
-    'Dia 2, Sala A, S9/10': { name: 'Sessão 9', volunteers: [Luís André, Izak, Rodrigo M.] }
-    'Dia 2, Sala B, S9/10': { name: 'Sessão 10', volunteers: [Gabriel, Monique] }
-    'Dia 2, Sala A, S11/12': { name: 'Sessão 11', volunteers: [Bruno, Rebeca, João Victor] }
+    'Dia 2, Sala A, S7/8': { name: 'Sessão 7', volunteers: [Luís André, Izak, Rodrigo M.], chairs: [Christina] }
+    'Dia 2, Sala B, S7/8': { name: 'Sessão 8', volunteers: [Gabriel, Monique], chairs: [Leobino] }
+    'Dia 2, Sala A, S9/10': { name: 'Sessão 9', volunteers: [Luís André, Izak, Rodrigo M.] , chairs: [Marlo] }
+    'Dia 2, Sala B, S9/10': { name: 'Sessão 10', volunteers: [Gabriel, Monique], chairs: [Leobino] }
+    'Dia 2, Sala A, S11/12': { name: 'Sessão 11', volunteers: [Bruno, Rebeca, João Victor], chairs: [Rita] }
     'Dia 2, Sala B, S11/12': { name: 'Sessão 12', volunteers: [Wesley, Isaque] }
-    'Dia 2, Sala A, S13/14': { name: 'Sessão 13', volunteers: [Bruno, João Victor] }
-    'Dia 2, Sala B, S13/14': { name: 'Sessão 14', volunteers: [Isaque, Matheus R.] }
+    'Dia 2, Sala A, S13/14': { name: 'Sessão 13', volunteers: [Bruno, João Victor], chairs: [Daniela] }
+    'Dia 2, Sala B, S13/14': { name: 'Sessão 14', volunteers: [Isaque, Matheus R.], chairs: [Laís] }
   talks:
 
     'Dia 1, Sala A, 9:20': { presenter: 'Lucas Amparo Barbosa', presenter_short: 'Lucas Amparo', title: 'Underwater Image Rendering Survey', abstract: 'The underwater world has gained more attention in research in the last few years. This is related to ocean exploration in many industries. Images are a helpful data source for many tasks in underwater exploration but face several issues related to light behavior in this environment. Given the complexity of capturing data from the sea and the large variability of components in the scene (depth, suspended particles, turbidity, etc.), rendering underwater scenes can provide relevant data to improve image processing algorithms and train computer vision tasks. The main goal of this paper is to summarize works with underwater imagery approaches, discussing their techniques, contributions, and potential improvements.', advisor: 'Antonio Lopes Apolinario Junior', coadvisor: '', presenter_photo: 'lucas.amparo.jpg', topic_abbr: 'cvis', topic: '', doi: '', video: '', instagram: '@lucasamparo', twitter: '@sep_lucas', linkedin: 'https://www.linkedin.com/in/lucas-amparo-barbosa-782a8256/', }
