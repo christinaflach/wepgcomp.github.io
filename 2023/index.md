@@ -99,9 +99,9 @@ program:
     'Dia 1, Sala A, S5/6': { name: 'Sessão 5', volunteers: [Hugo, Alexsandro, Rebeca] }
     'Dia 1, Sala B, S5/6': { name: 'Sessão 6', volunteers: [Bruno, André Luiz, Matheus R.] }
     'Dia 2, Sala A, S7/8': { name: 'Sessão 7', volunteers: [Luís André, Izak, Rodrigo M.], chairs: [Christina] }
-    'Dia 2, Sala B, S7/8': { name: 'Sessão 8', volunteers: [Gabriel, Monique], chairs: [Leobino] }
+    'Dia 2, Sala B, S7/8': { name: 'Sessão 8', volunteers: [Gabriel], chairs: [Leobino] }
     'Dia 2, Sala A, S9/10': { name: 'Sessão 9', volunteers: [Luís André, Izak, Rodrigo M.] , chairs: [Marlo] }
-    'Dia 2, Sala B, S9/10': { name: 'Sessão 10', volunteers: [Gabriel, Monique], chairs: [Leobino] }
+    'Dia 2, Sala B, S9/10': { name: 'Sessão 10', volunteers: [Gabriel], chairs: [Leobino] }
     'Dia 2, Sala A, S11/12': { name: 'Sessão 11', volunteers: [Bruno, Rebeca, João Victor], chairs: [Rita] }
     'Dia 2, Sala B, S11/12': { name: 'Sessão 12', volunteers: [Wesley, Isaque] }
     'Dia 2, Sala A, S13/14': { name: 'Sessão 13', volunteers: [Bruno, João Victor], chairs: [Daniela] }
