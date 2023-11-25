@@ -6,7 +6,7 @@ main_page: true
 logo: assets/images/logo-ic.png
 event_initials: WEPGCOMP 2023
 event_name: Workshop de Estudantes de Pós-Graduação em Ciência da Computação do PGCOMP-UFBA
-date_and_place: 'Realizado nos dias 23 e 24 de novembro de 2023</br>Auditório do Instituto de Geociências - UFBA</br><h2>Até 2024!</h2>
+date_and_place: 'Realizado nos dias 23 e 24 de novembro de 2023</br>Auditório do Instituto de Geociências - UFBA</br><h2>Até 2024!</h2>'
 banner_image: assets/images/ssa03_Elevador.JPG
 banner_darken_ratio: 0.5
 kickoff: { year: 2023, month: 11, day: 23, hour: 8, minute: 30 }
