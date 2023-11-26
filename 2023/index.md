@@ -36,18 +36,33 @@ staff:
     - Robespierre Pita
     - Christina von Flach
     - Rodrigo Rocha
-  'Apoio a TI e transmissão':
+  'Apoio à TI':
     - Bianco Oliveira
+    - Bruno Morais
     - Hugo Chaves
     - Jessé Ferreira
-  'Apoio às sessões':
-    - Hugo Chaves
+    - Luís André
   'Comunicação':
     - Ivan do Carmo Machado
   'Apoio administrativo':
     - Kleber Batista
     - Silvana Barros
-
+  'Estudantes voluntários':
+    - Alana Bispo
+    - Alexsandro Leite
+    - André Luiz Silva
+    - Diego Carapiá
+    - Gabriel Sizinio
+    - Isaque Santana
+    - Izak Alves
+    - João Roberto da Silva
+    - João Victor Luz
+    - Luca Assis
+    - Matheus dos Santos
+    - Matheus Rheinschmitt
+    - Rebeca de Oliveira
+    - Rodrigo Meliande
+    - Wesley Araújo
 
 program:
   days:
