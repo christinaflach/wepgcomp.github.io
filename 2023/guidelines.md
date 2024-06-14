@@ -12,10 +12,10 @@ kickoff:
 - A Programação Preliminar do WEPGCOMP 2023 é apresentada na [página do evento](/2023).
 - O evento está organizado em **sessões temáticas** 
 para apresentação de trabalhos das/os doutorandas/os matriculadas/os no componente curricular MATA33.
-- A apresentação no WEPGCOMP é _opcional_ para as/os doutorandas/os que realizaram ou realizarão o exame de qualificação (MATA34) em 2023. Nesse caso, a nota do componente MATA33 será a mesma atribuída ao componente MATA34 em 2023.
+- A apresentação no WEPGCOMP não é mais _opcional_ para as/os doutorandas/os que realizaram ou realizarão o exame de qualificação (MATA34) em 2023. 
 - Cada trabalho apresentado em uma sessão contará com um grupo de, no mínimo, três docentes responsáveis pela avaliação do trabalho, incluindo seu orientador.
 - O evento será realizado na modalidade **presencial**.
-Todas as apresentações serão transmitidas no canal do evento no YouTube (<https://www.youtube.com/@ComputacaoUFBA>).
+A depender do Colegiado, as apresentações poderão ser transmitidas no canal do evento no YouTube (<https://www.youtube.com/@ComputacaoUFBA>).
 
 ### Preparação da apresentação
 
