@@ -1,31 +1,46 @@
-## Guidelines para Organizadores
+# Site do WEPGCOMP
 
-### Primeiras ações
-- Definir DATA do WEPGCOMP com pelo menos 120 dias de antecedência e levar para apreciação do Colegiado
-- Definir o LOCAL de realização do WEPGCOMP
-- Pedir à Coordenação para indicar um servidor TAE para apoio.
-- Lançar chamada para compor o COMITÊ DE ORGANIZAÇÃO (docentes, discentes, TAE, voluntários da graduação). Obs.: Explicar que haverá certificado com CH de atividade para graduação
-- Definir e atribuir tarefas relacionadas às etapas de planejamento, execução e finalização do WEPGCOMP. Algumas serão listadas mais adiante.
-- Definir cronograma de planejamento, cronograma de execução e cronograma de finalização do evento.
-- Definir se haverá palestras, quantas e a duração, propor nomes para consulta, convidar os indicados.
-- Reservar um slot para Abertura do evento e para uma breve fala da Coordenação do PGCOMP. Sugestão: de 10 a 15 minutos.
+Este repositório contém o código-fonte do site do Workshop de Estudantes de Pós-Graduação em Ciência da Computação (WEPGCOMP) do Programa de Pós-Graduação em Computação (PGCOMP) do Instituto de Computação da Universidade Federal da Bahia (UFBA).
 
-### Coleta dados dos discentes / doutorandos (matriculados em MATA33)
-- Solicitar ao CEAPG-IC a relação de nomes e emails dos discentes matriculados em MATA33 no semestre
-- Validar com discentes se nome e email de contato estão corretos. Usar a lista pgcomp-discentes-l.
-- Rodar Survey 1 (informações gerais e foto - ver modelo)
-- Validar com docentes se seus orientandos de doutorado estão matriculados em MATA33. Usar a lista pgcomp-docentes-l.
+## Guidelines para organizadores
 
-### Definir formato do workshop
-- Refletir sobre o formato e possíveis melhorias
-- Definir número de sessões, número de apresentações por sessão, se sessões serão temáticas, se sessões serão paralelas
-- Definir slots com horário para abertura, palestra(s), sessões e suas apresentações, coffee-breaks e outras atividades, se necessário
+[Consulte aqui](./_organizacao.md) as orientações para organizadores do WEPGCOMP.
 
-### Atualizar website (https://github.com/wepgcomp/wepgcomp.github.io)
+## Configuração
 
-- Pegar as credenciais para acesso à organização wepgcomp no github e ao repositório wepgcomp.github.io
-- Criar uma branch de trabalho no repositório wepgcomp.github.io
-- Criar uma pasta (folder) cujo nome é o ANO do evento
-- Olhar pasta(s) de edições anterior (es) do workshop, por exemplo, “2022”, para entender a organização. Não incluir novas pastas e arquivos desnessários.
-- Alterar o arquivo index.html com informações sobre ANO e outros detalhes necessários para o evento.
+O site é construído com [Jekyll](https://jekyllrb.com/), um gerador de sites estáticos. Para rodar o site localmente, você precisará do Ruby 3.0.5.
 
+Para **baixar as dependências** do repositório, execute o seguinte comando:
+
+```bash
+bundle install
+```
+
+Para **rodar o site** localmente, execute o seguinte comando:
+
+```bash
+bundle exec jekyll serve -i
+```
+
+## Criação de página para uma nova edição do evento
+
+Para criar uma nova edição do evento, você precisará criar cópias de arquivos e pastas de uma edição anterior e editar os arquivos copiados.
+
+A seguir, um exemplo de como criar uma nova edição do evento para o ano de 2024. Primeiramnente, crie uma cópia das pastas relevantes:
+
+```bash
+cp -r 2023 2024
+cp -r _layouts/2023 _layouts/2024
+```
+
+A seguir, edite os seguintes arquivos:
+
+- `index.html`: atualizar ano
+- `2024/index.md`: atualizar informações
+- `_layouts/2024/event.html`: atualizar links do menu
+- `2024/*.md`: atualizar informações
+
+
+## Publicação
+
+Para publicar suas alterações, envie-as para o repositório do GitHub. O site é publicado automaticamente pelo GitHub Pages.

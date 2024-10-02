@@ -1,0 +1,72 @@
+---
+layout: event-wrapper
+menu:
+  - name: Sobre
+    url: /2024/#about
+  - name: Programação
+    url: /2024/#schedule
+  - name: Orientações
+    url: /2024/#guidelines
+  - name: Equipe
+    url: /2024/#staff
+---
+
+{% include partials/navigation.html -%}
+
+{% if page.main_page %}
+  {% include partials/banner.html %}
+  {% include partials/about.html %}
+  {% include partials/statistics.html %}
+  {% include partials/schedule.html %}
+  {% include partials/guidelines.html %}
+  
+  <section class="sponsors section  overlay-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <!-- <h3>Apoio<span class="alternate"></span></h3> -->
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore dolore</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <!-- Title -->
+          <!-- <div class="sponsor-title text-center">
+            <h5>Platinum Sponsors</h5>
+          </div> -->
+          <div class="block text-center">
+            <!-- Sponsors image list -->
+            <ul class="list-inline sponsors-list">
+              <li class="list-inline-item">
+                <!-- <div class="image-block text-center">
+                  <a href="https://www.jusbrasil.com.br/">
+                    <img style="padding: 10px;" src="https://static.jusbr.com/images/logo/logo-jusbrasil-text.svg" alt="Jusbrasil" class="img-fluid">
+                  </a>
+                </div> -->
+              </li>
+            </ul>
+          </div>
+              </div>
+      </div>
+    </div>
+  </section>
+
+  {% include partials/staff.html %}
+{% else %}
+  {% include partials/title.html %}
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+
+          {{ content }}
+
+        </div>
+      </div>
+    </div>
+  </section>
+{% endif %}
+
+{% include partials/footer.html %}
