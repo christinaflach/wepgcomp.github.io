@@ -3,12 +3,15 @@ layout: event-wrapper
 menu:
   - name: Sobre
     url: /2024/#about
-  - name: Programação
-    url: /2024/#schedule
+  - name: CFP
+    url: /2024/#cfp
   - name: Orientações
     url: /2024/#guidelines
   - name: Equipe
     url: /2024/#staff
+
+#  - name: Programação
+#    url: /2024/#schedule
 ---
 
 {% include partials/navigation.html -%}
@@ -16,8 +19,11 @@ menu:
 {% if page.main_page %}
   {% include partials/banner.html %}
   {% include partials/about.html %}
-  {% include partials/statistics.html %}
-  {% include partials/schedule.html %}
+  {% include partials/cfp.html %}
+  {% comment %}
+    {% include partials/statistics.html %}
+    {% include partials/schedule.html %}
+  {% endcomment %}
   {% include partials/guidelines.html %}
   
   <section class="sponsors section  overlay-white">

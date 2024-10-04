@@ -6,13 +6,36 @@ main_page: true
 logo: assets/images/logo-ic.png
 event_initials: WEPGCOMP 2024
 event_name: Workshop de Estudantes de Pós-Graduação em Ciência da Computação do PGCOMP-UFBA
-date_and_place: 'Realizado nos dias 12 a 14 de novembro de 2024</br>Local a definir</br>'
+date_and_place: '<span style="font-size: 40px;">12 a 14 de novembro de 2024</span><br><span style="font-size: 35px;">Instituto de Computação, UFBA</span>'
 banner_image: assets/images/ssa03_Elevador.JPG
 banner_darken_ratio: 0.5
 kickoff: { year: 2024, month: 11, day: 12, hour: 8, minute: 30 }
 
 about1: O Workshop de Estudantes de Pós-Graduação em Ciência da Computação – WEPGCOMP – é um evento anual organizado pelo Programa de Pós Graduação em Ciência da Computação (PGCOMP) da Universidade Federal da Bahia (UFBA).
 about2: 'O objetivo do evento é apresentar as pesquisas em andamento realizadas pelos alunos de doutorado (a partir do segundo ano), bem como propiciar um ambiente de troca de conhecimento e congregação para toda a comunidade.'
+
+cfp: |
+  ## Chamada para Submissão de Trabalhos
+
+  O Programa de Pós-Graduação em Ciência da Computação da Universidade Federal da Bahia (PGCOMP-UFBA) convida para submissões de trabalhos para o Workshop de Estudantes de Pós-Graduação em Ciência da Computação.
+
+  **Submissões**:
+
+  - Submissões de resumos estendidos (máximo 2 páginas, incluindo referências).
+  - Utilize o template para conferências IEEE, disponível aqui.
+
+  **Requisitos de Apresentação**:
+
+  - Estudantes matriculados em Seminários de Avaliação Anuais (MATA33) devem submeter trabalhos para apresentação oral.
+  - Estudantes de mestrado que já foram aprovados em Projeto de Dissertação de Mestrado (MATD75) podem submeter para apresentação de pôsteres.
+
+  **Datas Importantes**:
+
+  - O evento será realizado de 12 a 14 de novembro de 2024.
+  - Data limite para submissão: 27 de outubro de 2024.
+
+  Este evento é uma excelente oportunidade para estudantes apresentarem e discutirem suas pesquisas, além de receberem feedback valioso de colegas e professores. É também uma chance de se envolver com a comunidade acadêmica e contribuir para o avanço do conhecimento na área de Ciência da Computação.
+
 
 schedule_preamble: 'Programação a definir'
 # schedule_preamble: 'O evento conta com <b>N_TALKS apresentações</b>, divididas em <b>N_SESSIONS sessões</b> ao longo de <b>N_DAYS dias</b>.<br>Os <b>slides</b> estarão disponíveis na <a style="font-weight: bold; color: #ff6600;" href="https://zenodo.org/communities/wepgcomp2023/">comunidade do PGCOMP no Zenodo</a>.'
@@ -38,7 +61,6 @@ staff:
     - Rafael Melo
     - Robespierre Pita
     - Rodrigo Rocha
-    - Christina von Flach
   'Apoio à TI':
     - Bianco Oliveira
     - Bruno Morais
