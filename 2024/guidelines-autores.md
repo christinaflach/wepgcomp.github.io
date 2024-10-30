@@ -12,7 +12,7 @@ kickoff:
 ### Template para slides
 
 O template para slides do WEPGCOMP está disponível 
-[<b>aqui</b>](https://docs.google.com/presentation/d/1-xGEu3hvVRVtdjE9yt9DTNlooDm4DqFimnPJMXETWQ8/edit?usp=sharing).
+[<b>aqui</b>](https://docs.google.com/presentation/d/1DEYY2nA1ZW0AAzjYh9ByCQUWdOzz2aW1gBNQ5JH99M4/edit).
 Faça uma cópia, renomeie para `wepgcomp24-nome-sobrenome`, 
 e adicione os seus slides. 
 Os dois primeiros slides do template (“Título do trabalho” e “Ficha do trabalho”)  
@@ -20,13 +20,13 @@ e o slide sobre “Estágio atual da pesquisa” são _obrigatórios_.
  
 #### Depósito de slides no Zenodo
 
-Os autores devem depositar no Zenodo, até **20/11/2024, 23:59h (BRT)**, 
+Os autores devem depositar no Zenodo, até **08/11/2024, 23:59h (BRT)**, 
 um arquivo (formato PDF) com a versão final dos slides da apresentação.
 O nome do arquivo deve ser `wepgcomp24-nome-sobrenome.pdf`.
 
-[Link para upload na comunidade do WEPGCOMP no Zenodo](https://zenodo.org/deposit/new?c=wepgcomp2023).
+[Link para upload na comunidade do WEPGCOMP no Zenodo](https://zenodo.org/deposit/new?c=wepgcomp2024).
 
-- Os organizadores do WEPGCOMP 2024 farão a coleta dos slides depositados no Zenodo no dia 21/11 e os disponibilizarão para os coordenadores de sessão.
+- Os organizadores do WEPGCOMP 2024 farão a coleta dos slides depositados no Zenodo e os disponibilizarão para os coordenadores de sessão.
 
 ### Apresentação de trabalhos
 
@@ -53,7 +53,7 @@ ao menos **30 minutos antes do início da sua sessão**. Em caso de problemas, e
 ## Depósito no Zenodo
 
 1. Acesse a URL para upload do arquivo com slides em formato PDF:
-https://zenodo.org/deposit/new?c=wepgcomp2023
+https://zenodo.org/deposit/new?c=wepgcomp2024
 
 <!-- ![Tela 1 - Escolha de arquivo com slides.](./tela01.png) -->
 <img style="width: 90%" src="images/tela01.png" alt="Tela 1 - Escolha de arquivo com slides.">

@@ -19,11 +19,6 @@ cfp: |
 
   O Programa de Pós-Graduação em Ciência da Computação da Universidade Federal da Bahia (PGCOMP-UFBA) convida para submissões de trabalhos para o Workshop de Estudantes de Pós-Graduação em Ciência da Computação.
 
-  **Submissões**:
-
-  - Submissões de resumos estendidos (máximo 2 páginas, incluindo referências).
-  - Utilize o template para conferências IEEE, disponível aqui.
-
   **Requisitos de Apresentação**:
 
   - Estudantes matriculados em Seminários de Avaliação Anuais (MATA33) devem submeter trabalhos para apresentação oral.
@@ -32,8 +27,7 @@ cfp: |
   **Datas Importantes**:
 
   - O evento será realizado de 12 a 14 de novembro de 2024.
-  - Data limite para submissão: 27 de outubro de 2024.
-
+  
   Este evento é uma excelente oportunidade para estudantes apresentarem e discutirem suas pesquisas, além de receberem feedback valioso de colegas e professores. É também uma chance de se envolver com a comunidade acadêmica e contribuir para o avanço do conhecimento na área de Ciência da Computação.
 
 
