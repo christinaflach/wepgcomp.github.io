@@ -6,7 +6,7 @@ main_page: true
 logo: assets/images/logo-ic.png
 event_initials: WEPGCOMP 2024
 event_name: Workshop de Estudantes de Pós-Graduação em Ciência da Computação do PGCOMP-UFBA
-date_and_place: '<span style="font-size: 40px;">12 a 14 de novembro de 2024</span><br><span style="font-size: 35px;">Instituto de Computação, UFBA</span>'
+date_and_place: '<span style="font-size: 40px;">12 a 14 de novembro de 2024</span><br><span style="font-size: 35px;">Pavilhão de Aulas Reitor Felipe Serpa (PAF I)<br/>Campus de Ondina da UFBA</span>'
 banner_image: assets/images/ssa03_Elevador.JPG
 banner_darken_ratio: 0.5
 kickoff: { year: 2024, month: 11, day: 12, hour: 8, minute: 30 }
@@ -32,7 +32,11 @@ cfp: |
 
 
 #schedule_preamble: 'Programação a definir'
-schedule_preamble: 'O evento conta com <b>N_TALKS apresentações</b>, divididas em <b>N_SESSIONS sessões</b> ao longo de <b>N_DAYS dias</b>.<br>Os <b>slides</b> estarão disponíveis na <a style="font-weight: bold; color: #ff6600;" href="https://zenodo.org/communities/wepgcomp2024/">comunidade do PGCOMP no Zenodo</a>.'
+schedule_preamble: '
+O evento conta com <b>N_TALKS apresentações</b>, divididas em <b>N_SESSIONS sessões</b> ao longo de <b>N_DAYS dias</b>.
+<br>Os <b>slides</b> estarão disponíveis na <a style="font-weight: bold; color: #ff6600;" href="https://zenodo.org/communities/wepgcomp2024/">comunidade do PGCOMP no Zenodo</a>.<br/>
+O evento ocorrerá no <b>Pavilhão de Aulas Reitor Felipe Serpa (PAF I)</b>, no campus de Ondina da UFBA.
+'
 schedule_legend: '
 <span class="legend-item"><span class="square cvis"></span>Computação Visual</span>
 <span class="legend-item"><span class="square es"></span>Engenharia de Software</span>
