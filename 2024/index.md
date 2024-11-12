@@ -113,10 +113,10 @@ program:
   - name: Dia 3
     date: 14 / 11 / 2024
     slots: [
-      'S9', '8:40', '9:00', '9:20', '9:40', '10:00',
+      'S9/10', '8:40', '9:00', '9:20', '9:40', '10:00',
       '10:20', # coffee break
-      'S10', '10:40', '11:00', '11:20', '11:40', '12:00', '12:20',
-      '12:40', # encerramento
+      'S11/12', '10:40', '11:00', '11:20', '11:40', '12:00',
+      '12:20' # encerramento
     ]
     rooms:
     - name: Sala A
@@ -129,7 +129,7 @@ program:
     'Dia 1, 8:30': { title: 'Abertura' }
     'Dia 1, 11:00': { title: 'Palestra "Unico Academy nas Universidades: Ecossistema Unico Academy de Formação de Recursos Humanos, Pesquisa, Desenvolvimento e Inovação"' }
     'Dia 2, 11:00': { title: 'Diálogo com a coordenação do PGCOMP' }
-    'Dia 3, 12:40': { title: 'Fechamento / Premiações' }
+    'Dia 3, 12:20': { title: 'Fechamento / Premiações' }
   sessions:
     'Dia 1, Sala A, S1/2': { name: 'Sessão 1' }
     'Dia 1, Sala B, S1/2': { name: 'Sessão 2' }
@@ -139,8 +139,10 @@ program:
     'Dia 2, Sala B, S5/6': { name: 'Sessão 6' }
     'Dia 2, Sala A, S7/8': { name: 'Sessão 7' }
     'Dia 2, Sala B, S7/8': { name: 'Sessão 8' }
-    'Dia 3, Sala A, S9': { name: 'Sessão 9' }
-    'Dia 3, Sala A, S10': { name: 'Sessão 10' }
+    'Dia 3, Sala A, S9/10': { name: 'Sessão 9' }
+    'Dia 3, Sala B, S9/10': { name: 'Sessão 10' }
+    'Dia 3, Sala A, S11/12': { name: 'Sessão 11' }
+    'Dia 3, Sala B, S11/12': { name: 'Sessão 12' }
 
   talks:
 
