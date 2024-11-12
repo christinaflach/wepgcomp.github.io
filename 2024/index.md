@@ -113,9 +113,9 @@ program:
   - name: Dia 3
     date: 14 / 11 / 2024
     slots: [
-      'S9', '8:40', '9:00', '9:20', '9:40', '10:00', '10:20',
-      '10:40', # coffee break
-      'S10', '11:00', '11:20', '11:40', '12:00', '12:20',
+      'S9', '8:40', '9:00', '9:20', '9:40', '10:00',
+      '10:20', # coffee break
+      'S10', '10:40', '11:00', '11:20', '11:40', '12:00', '12:20',
       '12:40', # encerramento
     ]
     rooms:
@@ -124,7 +124,7 @@ program:
   breaks:
     'Dia 1, 10:40': { title: 'Coffee break' }
     'Dia 2, 10:40': { title: 'Coffee break' }
-    'Dia 3, 10:40': { title: 'Coffee break' }
+    'Dia 3, 10:20': { title: 'Coffee break' }
 
     'Dia 1, 8:30': { title: 'Abertura' }
     'Dia 1, 11:00': { title: 'Palestra "Unico Academy nas Universidades: Ecossistema Unico Academy de Formação de Recursos Humanos, Pesquisa, Desenvolvimento e Inovação"' }
@@ -143,11 +143,12 @@ program:
     'Dia 3, Sala A, S10': { name: 'Sessão 10' }
 
   talks:
+
     'Dia 1, Sala A, 10:20': { presenter: 'Larrissa Dantas Xavier da Silva', advisor: 'Daniela Barreiro Claro', topic_abbr: 'sibw', topic: 'CA: Sistemas de Informação, Banco de Dados e Web (SIBW)', }
     'Dia 1, Sala A, 9:40': { presenter: 'Tiago Fernandes Machado', advisor: 'Marcos Ennes Barreto', topic_abbr: 'icot', topic: 'CA: Inteligência Computacional e Otimização (ICOT)', title: 'Análise de classificação multi-label nos desfechos da doença falciforme', }
     'Dia 1, Sala A, 12:20': { presenter: 'Diego Correa da Silva', advisor: 'Frederico Araújo Durão', topic_abbr: 'sibw', topic: 'CA: Sistemas de Informação, Banco de Dados e Web (SIBW)', title: 'Exploiting Calibration as a Multi-Objective Recommender System', }
     'Dia 1, Sala A, 12:40': { presenter: 'Maria Clara Pestana Sartori', advisor: 'Vaninha Vieira dos Santos', topic_abbr: 'sibw', topic: 'CA: Sistemas de Informação, Banco de Dados e Web (SIBW)', title: 'United for humanity: developing a collaborative model based on crowdsourcing to engage volunteers in crisis recovery campaigns', }
-    'Dia 3, Sala B, 8:30': { presenter: 'Edeyson Andrade Gomes', advisor: 'Laís do Nascimento Salvador', topic_abbr: 'ihcedu', topic: 'CA: Interação Humano-Computador (IHC) e Informática e Educação (IEDU)', title: 'Uma abordagem baseada em ontologia para auxiliar a aplicação de princípios curriculares orientados a competências em recursos educacionais abertos.', }
+    'Dia 3, Sala B, 8:40': { presenter: 'Edeyson Andrade Gomes', advisor: 'Laís do Nascimento Salvador', topic_abbr: 'ihcedu', topic: 'CA: Interação Humano-Computador (IHC) e Informática e Educação (IEDU)', title: 'Uma abordagem baseada em ontologia para auxiliar a aplicação de princípios curriculares orientados a competências em recursos educacionais abertos.', }
     'Dia 3, Sala B, 9:00': { presenter: 'Moara Sousa Brito Lessa', advisor: 'Laís do Nascimento Salvador', topic_abbr: 'ihcedu', topic: 'CA: Interação Humano-Computador (IHC) e Informática e Educação (IEDU)', title: 'Aplicação da aprendizagem baseada em projetos no ensino de ES: uma investigação no contexto da educação baseada em competências', }
     'Dia 2, Sala A, 8:40': { presenter: 'George Pacheco Pinto', advisor: 'Cássio Vinicius Serafim Prazeres', topic_abbr: 'sibw', topic: 'CA: Sistemas de Informação, Banco de Dados e Web (SIBW)', title: 'FoT-PDS: Towards Data Privacy in a Fog of Things', }
     'Dia 2, Sala A, 9:00': { presenter: 'Eduardo Ferreira da Silva', advisor: 'Frederico Araújo Durão', topic_abbr: 'sibw', topic: 'CA: Sistemas de Informação, Banco de Dados e Web (SIBW)', title: 'Review-based Recommender System', }
@@ -179,7 +180,7 @@ program:
     'Dia 3, Sala A, 9:40': { presenter: 'Claudio Junior Nascimento da Silva', advisor: 'Cássio Vinicius Serafim Prazeres', topic_abbr: 'rc', topic: 'SC: Sistemas Distribuídos (SD)', title: 'TinyFED - Integrating Federated Learning into resource-constrained devices', }
     'Dia 1, Sala B, 12:40': { presenter: 'Adriana Viriato Ribeiro', advisor: 'Leobino Nascimento Sampaio', topic_abbr: 'rc', topic: 'SC: Redes de Computadores (RC)', title: 'Serviços de Saúde Avançados: Conectividade e Segurança em Sistemas de Vida Assistida', }
     'Dia 3, Sala A, 9:00': { presenter: 'Jamile de Barros Vasconcelos', advisor: 'George Marconi de Araújo Lima', topic_abbr: 'scmisc', topic: 'SC: Sistemas Embarcados e de Tempo Real (SETR)', title: 'Avaliação segura de amostras em análise temporal baseada em medições para projetos de sistemas de tempo real', }
-    'Dia 3, Sala A, 10:00': { presenter: 'Elisangela Oliveira Carneiro', advisor: 'Cássio Vinicius Serafim Prazeres', topic_abbr: 'sd', topic: 'SC: Sistemas Distribuídos (SD)', title: 'Sistemas de Reputação baseados em Blockchain para ambientes IoT', }
+    'Dia 3, Sala B, 11:20': { presenter: 'Elisangela Oliveira Carneiro', advisor: 'Cássio Vinicius Serafim Prazeres', topic_abbr: 'sd', topic: 'SC: Sistemas Distribuídos (SD)', title: 'Sistemas de Reputação baseados em Blockchain para ambientes IoT', }
     'Dia 3, Sala A, 11:00': { presenter: 'Antonio Mateus de Sousa', advisor: 'Leobino Nascimento Sampaio', topic_abbr: 'rc', topic: 'SC: Redes de Computadores (RC)', title: 'ToID: Reputação Baseada em Identificadores Descentralizados Para Aplicações Distribuídas', }
     'Dia 3, Sala A, 11:20': { presenter: 'Antônio Cleber de Sousa Araújo', advisor: 'Leobino Nascimento Sampaio', topic_abbr: 'rc', topic: 'SC: Redes de Computadores (RC)', title: 'Arquitetura Adaptável na Camada de Enlace', }
     'Dia 3, Sala A, 11:40': { presenter: 'Talita Rocha Pinheiro', advisor: 'Leobino Nascimento Sampaio', topic_abbr: 'rc', topic: 'SC: Redes de Computadores (RC)', }
@@ -187,7 +188,7 @@ program:
     'Dia 2, Sala A, 12:40': { presenter: 'Marcos Vinícois dos Santos Ferreira', advisor: 'Ricardo Araújo Rios', topic_abbr: 'icot', topic: 'CA: Inteligência Computacional e Otimização (ICOT)', title: 'Fuzzifying Chaos in Dynamical Systems', }
     'Dia 3, Sala A, 10:40': { presenter: 'Guilherme Braga Araujo', advisor: 'Leobino Nascimento Sampaio', topic_abbr: 'rc', topic: 'SC: Redes de Computadores (RC)', title: 'Escalabilidade e Segurança para Serviços e Aplicações em Computação de Borda Veicular Através de Redes de Dados Nomeados', }
     'Dia 3, Sala A, 9:20': { presenter: 'Tadeu Nogueira Costa de Andrade', advisor: 'George Marconi de Araújo Lima', topic_abbr: 'scmisc', topic: 'SC: Sistemas Embarcados e de Tempo Real (SETR)', title: 'Métodos estatísticos e de inteligência computacional para análise temporal em sistemas de tempo real', }
-    'Dia 3, Sala A, 8:30': { presenter: 'Allan Sérgio Gonçalves Alves', advisor: 'George Marconi de Araújo Lima', topic_abbr: 'scmisc', topic: 'SC: Sistemas Embarcados e de Tempo Real (SETR)', }
+    'Dia 3, Sala A, 8:40': { presenter: 'Allan Sérgio Gonçalves Alves', advisor: 'George Marconi de Araújo Lima', topic_abbr: 'scmisc', topic: 'SC: Sistemas Embarcados e de Tempo Real (SETR)', }
     'Dia 3, Sala A, 12:00': { presenter: 'Nilton Flávio Sousa Seixas', advisor: 'Gustavo Bittencourt Figueiredo', topic_abbr: 'rc', topic: 'SC: Redes de Computadores (RC)', title: 'Data-driven Decision Making Frameworks for Resource Utilization in 6G O-RAN', }
     'Dia 2, Sala B, 12:40': { presenter: 'Antonio Carlos Marcelino de Paula', advisor: 'Manoel Gomes de Mendonca Neto', topic_abbr: 'es', topic: 'ESS: Engenharia de Software Experimental', title: 'Burnout in Software Projects: An Analysis of Stack Exchange Discussions', }
     'Dia 3, Sala B, 9:20': { presenter: 'Diego Zabot', advisor: 'Ecivaldo de Souza Matos', topic_abbr: 'ihcedu', topic: 'CA: Interação Humano-Computador (IHC) e Informática e Educação (IEDU)', title: 'Stimulating the development of Computational Reasoning by game design strategies', }
