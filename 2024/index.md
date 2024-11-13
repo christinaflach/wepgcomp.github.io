@@ -146,6 +146,7 @@ program:
 
   talks:
 
+
     'Dia 1, Sala A, 10:20': { presenter: 'Larrissa Dantas Xavier da Silva', advisor: 'Daniela Barreiro Claro', topic_abbr: 'sibw', topic: 'CA: Sistemas de Informação, Banco de Dados e Web (SIBW)', }
     'Dia 1, Sala A, 9:40': { presenter: 'Tiago Fernandes Machado', advisor: 'Marcos Ennes Barreto', topic_abbr: 'icot', topic: 'CA: Inteligência Computacional e Otimização (ICOT)', title: 'Análise de classificação multi-label nos desfechos da doença falciforme', }
     'Dia 1, Sala A, 12:20': { presenter: 'Diego Correa da Silva', advisor: 'Frederico Araújo Durão', topic_abbr: 'sibw', topic: 'CA: Sistemas de Informação, Banco de Dados e Web (SIBW)', title: 'Exploiting Calibration as a Multi-Objective Recommender System', }
@@ -153,7 +154,7 @@ program:
     'Dia 3, Sala B, 8:40': { presenter: 'Edeyson Andrade Gomes', advisor: 'Laís do Nascimento Salvador', topic_abbr: 'ihcedu', topic: 'CA: Interação Humano-Computador (IHC) e Informática e Educação (IEDU)', title: 'Uma abordagem baseada em ontologia para auxiliar a aplicação de princípios curriculares orientados a competências em recursos educacionais abertos.', }
     'Dia 3, Sala B, 9:00': { presenter: 'Moara Sousa Brito Lessa', advisor: 'Laís do Nascimento Salvador', topic_abbr: 'ihcedu', topic: 'CA: Interação Humano-Computador (IHC) e Informática e Educação (IEDU)', title: 'Aplicação da aprendizagem baseada em projetos no ensino de ES: uma investigação no contexto da educação baseada em competências', }
     'Dia 2, Sala A, 8:40': { presenter: 'George Pacheco Pinto', advisor: 'Cássio Vinicius Serafim Prazeres', topic_abbr: 'sibw', topic: 'CA: Sistemas de Informação, Banco de Dados e Web (SIBW)', title: 'FoT-PDS: Towards Data Privacy in a Fog of Things', }
-    'Dia 2, Sala A, 9:00': { presenter: 'Eduardo Ferreira da Silva', advisor: 'Frederico Araújo Durão', topic_abbr: 'sibw', topic: 'CA: Sistemas de Informação, Banco de Dados e Web (SIBW)', title: 'Review-based Recommender System', }
+    'Dia 3, Sala B, 12:00': { presenter: 'Eduardo Ferreira da Silva', advisor: 'Frederico Araújo Durão', topic_abbr: 'sibw', topic: 'CA: Sistemas de Informação, Banco de Dados e Web (SIBW)', title: 'Review-based Recommender System', }
     'Dia 1, Sala A, 10:00': { presenter: 'João Alberto Castelo Branco Oliveira', advisor: 'Laís do Nascimento Salvador', topic_abbr: 'icot', topic: 'CA: Inteligência Computacional e Otimização (ICOT)', title: 'Enhancing Explainable Recommender Systems through Automated Ontology Population and Data Provenance Assurance', }
     'Dia 1, Sala A, 9:00': { presenter: 'Rafaela Souza Alcântara', advisor: 'Antonio Lopes Apolinario Junior', topic_abbr: 'cvis', topic: 'CA: Computação Visual (CVIS)', title: 'Redução de Artefatos Metálicos em Tomografias Odontológicas Utilizando Processamento Espectral', }
     'Dia 2, Sala A, 9:40': { presenter: 'Marcos Vinicius Bião Cerqueira', advisor: 'Laís do Nascimento Salvador', topic_abbr: 'icot', topic: 'CA: Inteligência Computacional e Otimização (ICOT)', title: 'Sistema de recomendação de recursos educacionais baseados em competência', }
