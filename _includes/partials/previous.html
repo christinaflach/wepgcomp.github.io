@@ -1,0 +1,63 @@
+<!--===========================
+=         Previous            =
+============================-->
+
+<section class="section previous" id="previous">
+
+   <div class="container">
+           <div class="row" align="center">
+                   <div class="col-12">
+                          <div class="section-title">
+                                   <h3>Eventos Anteriores</h3>
+                           </div>
+
+                           <div class="content-block">
+                                   <div class="description-one">
+                                        <p>
+                                          {{ page.previous | markdownify }}
+                                        </p>
+<!--
+TODO: change style to avoid <p> </br> </p> 
+-->
+                                        <p> </br> </p>
+                                   </div>
+                           </div>
+                   </div>
+           </div>
+   </div>
+
+
+<!--
+TODO: iterate over folders 20++
+-->
+
+   <div class="container">
+          <div class="row justify-content-start">
+                <div class="col-3">
+                </div>
+                <div class="content-block">
+                  <ul class="list-inline">
+
+                  {% assign firstyear = page.firstyear %}
+                  {% assign thisyear = page.thisyear %}
+                  {% assign nyears = thisyear | minus: firstyear %} 
+
+
+                  {% for offset in (1..nyears) %}
+                     {% assign year = thisyear | minus: offset %}
+                     {% if year < thisyear %}
+                       <li class="list-inline-item">
+                         <a href="../{{ year }}" class="btn btn-main-md"><b>{{ year }}</b></a>
+                        </li>
+                     {% endif %}
+                   {% endfor %}
+
+                   </ul>
+                 </div>
+           </div>
+   </div>
+
+</section>
+
+<!--====  End of Previous  ====-->
+

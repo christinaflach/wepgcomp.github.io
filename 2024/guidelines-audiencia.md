@@ -2,7 +2,7 @@
 layout: 2024/event
 permalink: /2024/guidelines-audiencia
 logo: assets/images/logo-ic.png
-title: Orientações para Apresentadores
+title: Orientações para Audiência
 kickoff:
     year: 2024
 ---

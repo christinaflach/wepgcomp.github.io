@@ -10,6 +10,12 @@ date_and_place: 'Realizado nos dias 23 e 24 de novembro de 2023</br>Auditório d
 banner_image: assets/images/ssa03_Elevador.JPG
 banner_darken_ratio: 0.5
 kickoff: { year: 2023, month: 11, day: 23, hour: 8, minute: 30 }
+thisyear: 2023
+firstyear: 2022
+
+guidelines: Orientações para autores, avaliadores e audiência do WEPGCOMP.
+
+previous: O WEPGCOMP é um evento anual organizado pelo PGCOMP-UFBA desde 2016.
 
 about1: O Workshop de Estudantes de Pós-Graduação em Ciência da Computação – WEPGCOMP – é um evento anual organizado pelo Programa de Pós Graduação em Ciência da Computação (PGCOMP) da Universidade Federal da Bahia (UFBA).
 about2: 'O objetivo do evento é apresentar as pesquisas em andamento realizadas pelos alunos de doutorado (a partir do segundo ano), bem como propiciar um ambiente de troca de conhecimento e congregação para toda a comunidade.'
